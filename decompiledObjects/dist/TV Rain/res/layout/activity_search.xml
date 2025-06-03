@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@com.hintsolutions.raintv:color/color_rain_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fitsSystemWindows="true">
+  <include layout="@com.hintsolutions.raintv:layout/toolbar_search" />
+  <include layout="@com.hintsolutions.raintv:layout/subscription" />
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@com.hintsolutions.raintv:color/vk_share_blue_color" android:layout_width="fill_parent" android:text="@com.hintsolutions.raintv:string/vk_new_post_settings" android:layout_height="wrap_content" android:background="@com.hintsolutions.raintv:drawable/vk_share_send_button_background" />

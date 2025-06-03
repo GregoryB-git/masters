@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:duration="50" android:interpolator="@anim/linear_interpolator" android:propertyName="alpha" android:valueTo="1.0" android:valueFrom="1.0" />
+    <objectAnimator android:propertyName="alpha" android:duration="50" android:interpolator="@anim/linear_interpolator" android:valueFrom="1.0" android:valueTo="0.0" />
+  </set>
+  <objectAnimator android:valueTo="1.1" android:interpolator="@online.echofm.app:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleX" android:valueFrom="1.0" android:duration="300" />
+  <objectAnimator android:interpolator="@online.echofm.app:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleY" android:valueFrom="1.0" android:duration="300" android:valueTo="1.1" />
+</set>

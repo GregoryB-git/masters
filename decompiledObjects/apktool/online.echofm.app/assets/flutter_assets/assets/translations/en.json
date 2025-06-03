@@ -1,0 +1,45 @@
+{
+  "app_name": "Echo",
+
+  "home_on_air": "On air",
+  "home_next": "Upcoming",
+
+  "home_startup_title": "Play broadcast automatically when the app is launched?",
+  "home_startup_helpText": "Can be changed later in settings",
+  "home_startup_yes": "Yes, thanks!",
+  "home_startup_no": "No, may be later",
+  "home_eventModal_ok": "Okay",
+
+  "settings_heading": "Settings",
+  "settings_autoplay": "Auto play on start",
+  "settings_autoplay_helpText": "",
+  "settings_autoplay_enabled": "Autoplay is on",
+  "settings_autoplay_disabled": "Autoplay is off",
+  "settings_deviceInfo": "App Info",
+  "settings_deviceInfo_appVersion": "App Version",
+  "settings_deviceInfo_deviceId": "Unique ID of the device",
+  "settings_deviceInfo_support": "Report a problem",
+  "settings_deviceInfo_copiedToClipboard": "Copied to Clipboard",
+  "settings_playInBackground": "Play in background",
+  "settings_playInBackground_helpText": "",
+  "settings_playInBackground_enabled": "Play in background - on",
+  "settings_playInBackground_disabled": "Play in background - off",
+  "settings_receiveBlockNotifications": "Notifications about blocking",
+  "settings_receiveBlockNotifications_helpText": "",
+  "settings_receiveBlockNotifications_enabled": "Notifications are on",
+  "settings_receiveBlockNotifications_disabled": "Notifications are off",
+  "settings_saveError": "Failed to save settings. Try again later.",
+
+  "error_network": "Failed to connect to server",
+  "error_unknown": "Unknown error. Try to restart the app",
+  "error_no_connection": "No internet connection",
+  "error_blocked": "Our server are not available.\nWe are working on it",
+
+  "simple_player_play": "Turn on live broadcast",
+  "simple_player_stop": "Turn off live broadcast",
+  "simple_player_connecting": "Connecting...",
+  "simple_player_start_timeout": "Unable to connect to server",
+
+  "nav_button_settings": "Settings",
+  "nav_button_site": "Open Web Site"
+}

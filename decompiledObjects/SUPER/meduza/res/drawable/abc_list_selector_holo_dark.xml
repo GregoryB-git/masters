@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@io.meduza.meduza:drawable/abc_list_selector_background_transition_holo_dark" android:state_focused="false" android:state_pressed="true" />

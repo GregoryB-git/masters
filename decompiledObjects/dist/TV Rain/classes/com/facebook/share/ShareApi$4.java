@@ -1,0 +1,30 @@
+package com.facebook.share;
+
+import com.facebook.FacebookCallback;
+import com.facebook.GraphRequest.Callback;
+import com.facebook.GraphResponse;
+import com.facebook.share.internal.ShareInternalUtility;
+import org.json.JSONObject;
+
+class ShareApi$4
+  implements GraphRequest.Callback
+{
+  public ShareApi$4(ShareApi paramShareApi, FacebookCallback paramFacebookCallback) {}
+  
+  public void onCompleted(GraphResponse paramGraphResponse)
+  {
+    Object localObject = paramGraphResponse.getJSONObject();
+    if (localObject == null) {
+      localObject = null;
+    } else {
+      localObject = ((JSONObject)localObject).optString("id");
+    }
+    ShareInternalUtility.invokeCallbackWithResults(val$callback, (String)localObject, paramGraphResponse);
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.facebook.share.ShareApi.4
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

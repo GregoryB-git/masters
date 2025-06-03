@@ -1,0 +1,16 @@
+package com.google.android.play.core.integrity;
+
+public abstract class IntegrityTokenRequest$Builder
+{
+  public abstract IntegrityTokenRequest build();
+  
+  public abstract Builder setCloudProjectNumber(long paramLong);
+  
+  public abstract Builder setNonce(String paramString);
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.play.core.integrity.IntegrityTokenRequest.Builder
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

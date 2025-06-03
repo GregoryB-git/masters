@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:background="@com.hintsolutions.raintv:color/colorPrimary" android:fillViewport="true" android:orientation="vertical" android:layout_height="fill_parent">
+  <LinearLayout android:gravity="center_horizontal" android:paddingTop="@com.hintsolutions.raintv:dimen/default_padding" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" />
+</ScrollView>

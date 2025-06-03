@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_weight="1.0" android:duplicateParentState="true" android:layout_height="wrap_content" style="@io.meduza.meduza:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" android:layout_width="0.0dip" android:layout_gravity="center_vertical" />

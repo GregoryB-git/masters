@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@com.hintsolutions.raintv:style/ThemeOverlay.AppCompat.Dark" android:layout_height="wrap_content" class="com.google.android.material.snackbar.Snackbar$SnackbarLayout" android:layout_width="fill_parent" android:layout_gravity="bottom" style="@com.hintsolutions.raintv:style/Widget.Design.Snackbar" />

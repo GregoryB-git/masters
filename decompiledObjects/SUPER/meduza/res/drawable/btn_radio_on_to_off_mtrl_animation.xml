@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@io.meduza.meduza:drawable/btn_radio_on_mtrl">
+  <target android:animation="@io.meduza.meduza:anim/btn_radio_to_off_mtrl_ring_outer_animation" android:name="ring_outer" />
+  <target android:name="ring_outer_path" android:animation="@io.meduza.meduza:anim/btn_radio_to_off_mtrl_ring_outer_path_animation" />
+  <target android:animation="@io.meduza.meduza:anim/btn_radio_to_off_mtrl_dot_group_animation" android:name="dot_group" />
+</animated-vector>

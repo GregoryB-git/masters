@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="2.0" android:propertyName="strokeWidth" android:valueType="floatType" android:duration="183" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:valueTo="2.0" />
+    <objectAnimator android:propertyName="strokeWidth" android:valueType="floatType" android:valueFrom="2.0" android:valueTo="18.0" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:duration="16" />
+    <objectAnimator android:valueType="floatType" android:propertyName="strokeWidth" android:duration="300" android:valueTo="2.0" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:valueFrom="18.0" />
+  </set>
+</set>

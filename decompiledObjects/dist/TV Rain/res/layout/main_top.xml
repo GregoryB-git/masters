@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_height="wrap_content" android:layout_marginRight="@com.hintsolutions.raintv:dimen/content_padding" android:layout_width="fill_parent" android:layout_marginLeft="@com.hintsolutions.raintv:dimen/content_padding" />

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/linearLayout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+    <include android:id="@id/tb"
+             layout="@layout/toolbar_main_activity" />
+    <include layout="@layout/subscription" />
+  </com.google.android.material.appbar.AppBarLayout>
+  <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView"
+                        android:scrollbars="vertical"
+                        android:clipToPadding="false"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+  <include android:id="@id/emptyView"
+           layout="@layout/view_empty" />
+</LinearLayout>

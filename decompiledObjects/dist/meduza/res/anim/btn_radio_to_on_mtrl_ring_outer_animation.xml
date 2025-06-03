@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="1.0" android:duration="166" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:valueType="floatType" android:propertyName="scaleX" android:valueTo="0.5" />
+    <objectAnimator android:valueTo="0.9" android:valueType="floatType" android:duration="16" android:propertyName="scaleX" android:valueFrom="0.5" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" />
+    <objectAnimator android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:propertyName="scaleX" android:valueType="floatType" android:valueFrom="0.9" android:valueTo="1.0" android:duration="316" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:duration="166" android:propertyName="scaleY" android:valueTo="0.5" android:valueType="floatType" android:valueFrom="1.0" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" />
+    <objectAnimator android:valueType="floatType" android:valueFrom="0.5" android:duration="16" android:valueTo="0.9" android:propertyName="scaleY" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" />
+    <objectAnimator android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:propertyName="scaleY" android:valueType="floatType" android:valueFrom="0.9" android:duration="316" android:valueTo="1.0" />
+  </set>
+</set>

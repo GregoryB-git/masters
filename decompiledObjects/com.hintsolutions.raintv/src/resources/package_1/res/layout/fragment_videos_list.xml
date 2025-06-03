@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/linearLayout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView"
+                          android:scrollbars="vertical"
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent" />
+  </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+  <include android:id="@id/emptyView"
+           layout="@layout/view_empty" />
+  <include android:id="@id/progressDialog"
+           layout="@layout/dialog_progress_light" />
+</LinearLayout>

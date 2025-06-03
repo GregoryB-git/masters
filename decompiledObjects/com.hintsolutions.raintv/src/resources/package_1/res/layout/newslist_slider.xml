@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/layout"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <LinearLayout android:orientation="vertical"
+                android:background="@color/color_new_dark_background"
+                android:paddingBottom="30.0dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal"
+                  android:paddingLeft="@dimen/content_padding"
+                  android:paddingTop="22.0dp"
+                  android:paddingRight="@dimen/content_padding"
+                  android:paddingBottom="16.0dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+      <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="16.0sp"
+                            android:textColor="@color/color_new_text_on_black"
+                            android:id="@id/header"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ph_section_header"
+                            android:lineSpacingExtra="4.0sp"
+                            raintv:font_face="@string/font_roboto_medium" />
+      <ImageView android:id="@id/imageView11"
+                 android:paddingLeft="2.0dp"
+                 android:paddingTop="5.0dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 raintv:srcCompat="@0x7f08005b" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal"
+                          android:id="@id/list"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          raintv:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+  </LinearLayout>
+</LinearLayout>

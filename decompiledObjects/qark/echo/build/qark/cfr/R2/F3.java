@@ -1,0 +1,28 @@
+/*
+ * Decompiled with CFR 0_124.
+ * 
+ * Could not load the following classes:
+ *  android.os.Bundle
+ *  java.lang.Object
+ *  java.lang.Runnable
+ */
+package R2;
+
+import R2.C3;
+import android.os.Bundle;
+
+public final class F3
+implements Runnable {
+    public /* synthetic */ C3 o;
+    public /* synthetic */ Bundle p;
+
+    public /* synthetic */ F3(C3 c32, Bundle bundle) {
+        this.o = c32;
+        this.p = bundle;
+    }
+
+    public final void run() {
+        this.o.O(this.p);
+    }
+}
+

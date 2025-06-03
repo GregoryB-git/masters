@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:alpha="?disabledAlpha" android:state_enabled="false" android:color="?io.meduza.meduza:colorControlNormal" />
+  <item android:state_focused="true" android:color="?io.meduza.meduza:colorControlActivated" />
+  <item android:color="?io.meduza.meduza:colorControlActivated" android:state_pressed="true" />
+  <item android:state_activated="true" android:color="?io.meduza.meduza:colorControlActivated" />
+  <item android:color="?io.meduza.meduza:colorControlActivated" android:state_selected="true" />
+  <item android:color="?io.meduza.meduza:colorControlActivated" android:state_checked="true" />
+  <item android:color="?io.meduza.meduza:colorControlNormal" />
+</selector>

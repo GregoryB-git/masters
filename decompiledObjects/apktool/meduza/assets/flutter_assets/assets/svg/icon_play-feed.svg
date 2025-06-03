@@ -1,0 +1,6 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter-1)" transform="translate(11 11)" stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd">
+        <circle stroke-opacity=".246" fill-opacity=".2" fill="#000" cx="29" cy="29" r="30"/>
+        <path fill="#FFF" stroke-linecap="round" stroke-linejoin="round" d="M22 39V19l18 10z"/>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+package a4;
+
+public abstract interface e
+{
+  public abstract void a();
+  
+  public abstract String toString();
+  
+  public static enum a
+  {
+    static
+    {
+      a locala1 = new a("CHILD_REMOVED", 0);
+      o = locala1;
+      a locala2 = new a("CHILD_ADDED", 1);
+      p = locala2;
+      a locala3 = new a("CHILD_MOVED", 2);
+      q = locala3;
+      a locala4 = new a("CHILD_CHANGED", 3);
+      r = locala4;
+      a locala5 = new a("VALUE", 4);
+      s = locala5;
+      t = new a[] { locala1, locala2, locala3, locala4, locala5 };
+    }
+  }
+}
+
+/* Location:
+ * Qualified Name:     a4.e
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

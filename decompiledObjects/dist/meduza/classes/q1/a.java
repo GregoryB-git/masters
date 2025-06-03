@@ -1,0 +1,14 @@
+package q1;
+
+import u1.c;
+
+public abstract interface a
+{
+  public abstract void a(c paramc);
+}
+
+/* Location:
+ * Qualified Name:     q1.a
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

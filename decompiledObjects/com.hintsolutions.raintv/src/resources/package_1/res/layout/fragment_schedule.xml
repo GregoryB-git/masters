@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+    <include layout="@layout/toolbar_main_activity" />
+    <include layout="@layout/view_schedule_controller" />
+    <include layout="@layout/subscription" />
+  </com.google.android.material.appbar.AppBarLayout>
+  <androidx.viewpager.widget.ViewPager android:id="@id/pager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0" />
+</LinearLayout>

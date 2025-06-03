@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TextView android:textSize="14.0sp"
+          android:textColor="@color/white"
+          android:id="@id/search_type_title"
+          android:background="@drawable/search_type_bg_selector"
+          android:paddingLeft="16.0dp"
+          android:paddingTop="6.0dp"
+          android:paddingRight="16.0dp"
+          android:paddingBottom="6.0dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/ph_search_group"
+          android:layout_marginEnd="8.0dp" xmlns:android="http://schemas.android.com/apk/res/android" />

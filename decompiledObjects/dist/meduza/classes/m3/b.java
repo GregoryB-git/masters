@@ -1,0 +1,13 @@
+package m3;
+
+import qb.a;
+
+public abstract interface b<T>
+  extends a<T>
+{}
+
+/* Location:
+ * Qualified Name:     m3.b
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

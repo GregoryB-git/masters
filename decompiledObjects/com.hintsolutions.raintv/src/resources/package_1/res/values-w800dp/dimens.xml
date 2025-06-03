@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+  <dimen name="counter_text_size">90.0sp</dimen>
+  <dimen name="image_height1">300.0dp</dimen>
+  <dimen name="image_height2">400.0dp</dimen>
+  <dimen name="image_height3">510.0dp</dimen>
+  <dimen name="image_padding">100.0dp</dimen>
+  <dimen name="image_padding2">150.0dp</dimen>
+  <dimen name="video_logo_margin">56.0dp</dimen>
+</resources>

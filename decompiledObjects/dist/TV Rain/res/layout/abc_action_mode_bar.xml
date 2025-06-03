@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<androidx.appcompat.widget.ActionBarContextView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:theme="?com.hintsolutions.raintv:actionModeTheme" style="?com.hintsolutions.raintv:actionModeStyle" android:layout_height="wrap_content" android:visibility="gone" />

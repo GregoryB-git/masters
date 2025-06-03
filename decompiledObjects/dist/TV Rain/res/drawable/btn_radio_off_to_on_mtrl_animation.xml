@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@com.hintsolutions.raintv:drawable/btn_radio_off_mtrl">
+  <target android:animation="@com.hintsolutions.raintv:anim/btn_radio_to_on_mtrl_ring_outer_animation" android:name="ring_outer" />
+  <target android:name="ring_outer_path" android:animation="@com.hintsolutions.raintv:anim/btn_radio_to_on_mtrl_ring_outer_path_animation" />
+  <target android:animation="@com.hintsolutions.raintv:anim/btn_radio_to_on_mtrl_dot_group_animation" android:name="dot_group" />
+</animated-vector>

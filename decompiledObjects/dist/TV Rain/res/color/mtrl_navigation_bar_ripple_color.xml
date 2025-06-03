@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:alpha="0.1" android:state_pressed="true" android:state_selected="true" android:color="?com.hintsolutions.raintv:colorPrimary" />
+  <item android:state_hovered="true" android:color="?com.hintsolutions.raintv:colorPrimary" android:alpha="0.2" android:state_selected="true" android:state_focused="true" />
+  <item android:state_selected="true" android:color="?com.hintsolutions.raintv:colorPrimary" android:state_focused="true" android:alpha="0.1" />
+  <item android:alpha="0.0" android:color="?com.hintsolutions.raintv:colorPrimary" android:state_hovered="true" android:state_selected="true" />
+  <item android:alpha="0.0" android:state_selected="true" android:color="?com.hintsolutions.raintv:colorPrimary" />
+  <item android:state_pressed="true" android:alpha="0.1" android:color="?com.hintsolutions.raintv:colorOnSurface" />
+  <item android:alpha="0.2" android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_hovered="true" android:state_focused="true" />
+  <item android:alpha="0.1" android:state_focused="true" android:color="?com.hintsolutions.raintv:colorOnSurface" />
+  <item android:alpha="0.0" android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_hovered="true" />
+  <item android:color="?com.hintsolutions.raintv:colorOnSurface" android:alpha="0.0" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent">
+  <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="@com.hintsolutions.raintv:dimen/padding">
+    <TextView android:textColor="@com.hintsolutions.raintv:color/black" android:gravity="center" android:textSize="18.0sp" android:text="@com.hintsolutions.raintv:string/purchase_info_heading" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textStyle="bold" />
+    <TextView android:text="@com.hintsolutions.raintv:string/purchase_info_description" android:layout_width="210.0dip" android:layout_marginTop="16.0dip" android:textSize="15.0sp" android:gravity="center" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textColor="@com.hintsolutions.raintv:color/color_rain_text_gray" />
+    <LinearLayout android:layout_marginTop="@com.hintsolutions.raintv:dimen/vertical_spacing" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:layout_marginBottom="@com.hintsolutions.raintv:dimen/vertical_spacing3" />
+  </LinearLayout>
+</ScrollView>

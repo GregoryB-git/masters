@@ -1,0 +1,27 @@
+package com.google.firebase.ktx;
+
+import B3.e;
+import B3.h;
+import java.util.concurrent.Executor;
+import kotlin.jvm.internal.Intrinsics;
+import p6.i0;
+import y3.b;
+
+public final class FirebaseCommonKtxRegistrar$c
+  implements h
+{
+  public static final c a = new c();
+  
+  public final p6.F b(e parame)
+  {
+    parame = parame.h(B3.F.a(b.class, Executor.class));
+    Intrinsics.checkNotNullExpressionValue(parame, "c.get(Qualified.qualifie…a, Executor::class.java))");
+    return i0.a((Executor)parame);
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.google.firebase.ktx.FirebaseCommonKtxRegistrar.c
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="0.2" android:interpolator="@online.echofm.app:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:duration="166" android:valueTo="0.2" android:propertyName="scaleX" />
+    <objectAnimator android:valueTo="0.2" android:duration="333" android:interpolator="@online.echofm.app:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:propertyName="scaleX" android:valueFrom="0.2" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="0.2" android:interpolator="@online.echofm.app:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:valueTo="0.2" android:propertyName="scaleY" android:duration="166" />
+    <objectAnimator android:valueFrom="0.2" android:propertyName="scaleY" android:duration="333" android:valueTo="0.2" android:interpolator="@online.echofm.app:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" />
+  </set>
+</set>

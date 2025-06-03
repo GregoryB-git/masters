@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:ico_icon="gmd-cast-connected" app:ico_color="@com.hintsolutions.raintv:color/white" android:layout_width="128.0dip" android:layout_height="128.0dip" app:ico_size="128.0dip" />

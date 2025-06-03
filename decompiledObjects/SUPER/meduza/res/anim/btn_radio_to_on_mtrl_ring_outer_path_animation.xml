@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:duration="166" android:valueType="floatType" android:interpolator="@io.meduza.meduza:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0" android:propertyName="strokeWidth" android:valueFrom="2.0" android:valueTo="18.0" />
+    <objectAnimator android:valueType="floatType" android:valueFrom="18.0" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:duration="16" android:propertyName="strokeWidth" android:valueTo="2.0" />
+    <objectAnimator android:valueTo="2.0" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:valueType="floatType" android:valueFrom="2.0" android:duration="316" android:propertyName="strokeWidth" />
+  </set>
+</set>

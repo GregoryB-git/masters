@@ -1,0 +1,149 @@
+package androidx.work.multiprocess;
+
+import android.os.Binder;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.RemoteException;
+
+public abstract class IWorkManagerImplCallback$Stub
+  extends Binder
+  implements IWorkManagerImplCallback
+{
+  private static final String DESCRIPTOR = "androidx.work.multiprocess.IWorkManagerImplCallback";
+  public static final int TRANSACTION_onFailure = 2;
+  public static final int TRANSACTION_onSuccess = 1;
+  
+  public IWorkManagerImplCallback$Stub()
+  {
+    attachInterface(this, "androidx.work.multiprocess.IWorkManagerImplCallback");
+  }
+  
+  public static IWorkManagerImplCallback asInterface(IBinder paramIBinder)
+  {
+    if (paramIBinder == null) {
+      return null;
+    }
+    IInterface localIInterface = paramIBinder.queryLocalInterface("androidx.work.multiprocess.IWorkManagerImplCallback");
+    if ((localIInterface != null) && ((localIInterface instanceof IWorkManagerImplCallback))) {
+      return (IWorkManagerImplCallback)localIInterface;
+    }
+    return new Proxy(paramIBinder);
+  }
+  
+  public static IWorkManagerImplCallback getDefaultImpl()
+  {
+    return Proxy.sDefaultImpl;
+  }
+  
+  public static boolean setDefaultImpl(IWorkManagerImplCallback paramIWorkManagerImplCallback)
+  {
+    if (Proxy.sDefaultImpl == null)
+    {
+      if (paramIWorkManagerImplCallback != null)
+      {
+        Proxy.sDefaultImpl = paramIWorkManagerImplCallback;
+        return true;
+      }
+      return false;
+    }
+    throw new IllegalStateException("setDefaultImpl() called twice");
+  }
+  
+  public IBinder asBinder()
+  {
+    return this;
+  }
+  
+  public boolean onTransact(int paramInt1, Parcel paramParcel1, Parcel paramParcel2, int paramInt2)
+    throws RemoteException
+  {
+    if (paramInt1 != 1)
+    {
+      if (paramInt1 != 2)
+      {
+        if (paramInt1 != 1598968902) {
+          return super.onTransact(paramInt1, paramParcel1, paramParcel2, paramInt2);
+        }
+        paramParcel2.writeString("androidx.work.multiprocess.IWorkManagerImplCallback");
+        return true;
+      }
+      paramParcel1.enforceInterface("androidx.work.multiprocess.IWorkManagerImplCallback");
+      onFailure(paramParcel1.readString());
+      return true;
+    }
+    paramParcel1.enforceInterface("androidx.work.multiprocess.IWorkManagerImplCallback");
+    onSuccess(paramParcel1.createByteArray());
+    return true;
+  }
+  
+  public static class Proxy
+    implements IWorkManagerImplCallback
+  {
+    public static IWorkManagerImplCallback sDefaultImpl;
+    private IBinder mRemote;
+    
+    public Proxy(IBinder paramIBinder)
+    {
+      mRemote = paramIBinder;
+    }
+    
+    public IBinder asBinder()
+    {
+      return mRemote;
+    }
+    
+    public String getInterfaceDescriptor()
+    {
+      return "androidx.work.multiprocess.IWorkManagerImplCallback";
+    }
+    
+    public void onFailure(String paramString)
+      throws RemoteException
+    {
+      Parcel localParcel = Parcel.obtain();
+      try
+      {
+        localParcel.writeInterfaceToken("androidx.work.multiprocess.IWorkManagerImplCallback");
+        localParcel.writeString(paramString);
+        if ((!mRemote.transact(2, localParcel, null, 1)) && (IWorkManagerImplCallback.Stub.getDefaultImpl() != null))
+        {
+          IWorkManagerImplCallback.Stub.getDefaultImpl().onFailure(paramString);
+          return;
+        }
+        return;
+      }
+      finally
+      {
+        localParcel.recycle();
+      }
+    }
+    
+    public void onSuccess(byte[] paramArrayOfByte)
+      throws RemoteException
+    {
+      Parcel localParcel = Parcel.obtain();
+      try
+      {
+        localParcel.writeInterfaceToken("androidx.work.multiprocess.IWorkManagerImplCallback");
+        localParcel.writeByteArray(paramArrayOfByte);
+        if ((!mRemote.transact(1, localParcel, null, 1)) && (IWorkManagerImplCallback.Stub.getDefaultImpl() != null))
+        {
+          IWorkManagerImplCallback.Stub.getDefaultImpl().onSuccess(paramArrayOfByte);
+          return;
+        }
+        return;
+      }
+      finally
+      {
+        localParcel.recycle();
+      }
+    }
+  }
+}
+
+/* Location:
+ * Qualified Name:     androidx.work.multiprocess.IWorkManagerImplCallback.Stub
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

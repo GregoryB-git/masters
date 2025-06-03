@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center"
+              android:id="@id/scheduleController"
+              android:background="@color/color_rain_pink"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/vertical_spacing3" xmlns:android="http://schemas.android.com/apk/res/android">
+  <ImageButton android:id="@id/prevDate"
+               android:background="@color/color_rain_pink"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/horizontal_margin"
+               android:layout_marginRight="@dimen/horizontal_margin"
+               android:src="@0x7f0801de" />
+  <TextView android:textColor="@color/color_rain_white"
+            android:gravity="center"
+            android:id="@id/date"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:text="26 ФЕВРАЛЯ, Среда"
+            android:layout_weight="1.0" />
+  <ImageButton android:id="@id/nextDate"
+               android:background="@color/color_rain_pink"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/horizontal_margin"
+               android:layout_marginRight="@dimen/horizontal_margin"
+               android:src="@0x7f0801e0" />
+</LinearLayout>

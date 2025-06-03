@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <solid android:color="@color/white" />
+  <corners android:bottomLeftRadius="@com.hintsolutions.raintv:dimen/com_facebook_auth_dialog_corner_radius" android:topLeftRadius="@com.hintsolutions.raintv:dimen/com_facebook_auth_dialog_corner_radius_oversized" android:bottomRightRadius="@com.hintsolutions.raintv:dimen/com_facebook_auth_dialog_corner_radius" android:topRightRadius="@com.hintsolutions.raintv:dimen/com_facebook_auth_dialog_corner_radius_oversized" />
+</shape>

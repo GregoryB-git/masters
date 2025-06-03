@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="@com.hintsolutions.raintv:dimen/padding" />
+  <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:layout_weight="1.0" android:layout_marginLeft="@com.hintsolutions.raintv:dimen/horizontal_margin" android:paddingRight="8.0dip" android:layout_marginStart="@com.hintsolutions.raintv:dimen/horizontal_margin" />
+</LinearLayout>

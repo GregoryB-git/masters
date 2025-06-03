@@ -1,0 +1,101 @@
+package com.google.android.gms.internal.measurement;
+
+import defpackage.g;
+import java.io.Serializable;
+import java.util.Iterator;
+import java.util.Locale;
+
+/* loaded from: classes.dex */
+public abstract class zziy implements Serializable, Iterable<Byte> {
+    public static final zziy zza = new zzjf(zzkj.zzb);
+    private static final zzjb zzb = new zzji();
+    private int zzc = 0;
+
+    static {
+        new zzja();
+    }
+
+    public static /* synthetic */ int zza(byte b10) {
+        return b10 & 255;
+    }
+
+    public static int zza(int i10, int i11, int i12) {
+        int i13 = i11 - i10;
+        if ((i10 | i11 | i13 | (i12 - i11)) >= 0) {
+            return i13;
+        }
+        if (i10 >= 0) {
+            if (i11 < i10) {
+                throw new IndexOutOfBoundsException(g.c("Beginning index larger than ending index: ", i10, ", ", i11));
+            }
+            throw new IndexOutOfBoundsException(g.c("End index: ", i11, " >= ", i12));
+        }
+        throw new IndexOutOfBoundsException("Beginning index: " + i10 + " < 0");
+    }
+
+    public static zziy zza(String str) {
+        return new zzjf(str.getBytes(zzkj.zza));
+    }
+
+    public static zziy zza(byte[] bArr) {
+        return zza(bArr, 0, bArr.length);
+    }
+
+    public static zziy zza(byte[] bArr, int i10, int i11) {
+        zza(i10, i10 + i11, bArr.length);
+        return new zzjf(zzb.zza(bArr, i10, i11));
+    }
+
+    public static zziy zzb(byte[] bArr) {
+        return new zzjf(bArr);
+    }
+
+    public static zzjd zzc(int i10) {
+        return new zzjd(i10);
+    }
+
+    public abstract boolean equals(Object obj);
+
+    public final int hashCode() {
+        int i10 = this.zzc;
+        if (i10 == 0) {
+            int zzb2 = zzb();
+            i10 = zzb(zzb2, 0, zzb2);
+            if (i10 == 0) {
+                i10 = 1;
+            }
+            this.zzc = i10;
+        }
+        return i10;
+    }
+
+    @Override // java.lang.Iterable
+    public /* synthetic */ Iterator<Byte> iterator() {
+        return new zzix(this);
+    }
+
+    public final String toString() {
+        Locale locale = Locale.ROOT;
+        Object[] objArr = new Object[3];
+        objArr[0] = Integer.toHexString(System.identityHashCode(this));
+        objArr[1] = Integer.valueOf(zzb());
+        objArr[2] = zzb() <= 50 ? zzmq.zza(this) : g.d(zzmq.zza(zza(0, 47)), "...");
+        return String.format(locale, "<ByteString@%s size=%d contents=\"%s\">", objArr);
+    }
+
+    public abstract byte zza(int i10);
+
+    public final int zza() {
+        return this.zzc;
+    }
+
+    public abstract zziy zza(int i10, int i11);
+
+    public abstract void zza(zziv zzivVar);
+
+    public abstract byte zzb(int i10);
+
+    public abstract int zzb();
+
+    public abstract int zzb(int i10, int i11, int i12);
+}

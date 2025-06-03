@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <include android:id="@id/toolbar"
+           layout="@layout/toolbar" />
+  <ScrollView android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:padding="@dimen/padding"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+      <TextView android:textSize="15.0sp"
+                android:textColor="@color/color_rain_text_gray"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Войдите через аккаунт социальной сети:" />
+      <LinearLayout android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/horizontal_margin"
+                    android:layout_marginBottom="@dimen/horizontal_margin">
+        <ImageButton android:id="@id/facebook"
+                     android:layout_width="wrap_content"
+                     android:text="Facebook"
+                     android:layout_weight="1.0"
+                     style="@style/Button.Facebook" />
+        <ImageButton android:id="@id/twitter"
+                     android:layout_width="wrap_content"
+                     android:text="Twitter"
+                     android:layout_weight="1.0"
+                     style="@style/Button.Twitter" />
+        <ImageButton android:id="@id/google"
+                     android:layout_width="wrap_content"
+                     android:layout_marginRight="@dimen/horizontal_margin"
+                     android:text="Google"
+                     android:layout_weight="1.0"
+                     style="@style/Button.Google" />
+      </LinearLayout>
+      <TextView android:textSize="15.0sp"
+                android:textColor="@color/color_rain_text_gray"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="... или используя e-mail и пароль" />
+      <LinearLayout android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_spacing"
+                    android:layout_marginBottom="@dimen/vertical_spacing3">
+        <com.rengwuxian.materialedittext.MaterialEditText android:id="@id/email"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:hint="@string/hint_email"
+                              android:singleLine="true"
+                              android:inputType="textEmailAddress"
+                              style="@style/MaterialEditText.Accent" />
+        <com.rengwuxian.materialedittext.MaterialEditText android:id="@id/password"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:hint="@string/hint_password"
+                              android:singleLine="true"
+                              android:inputType="textPassword"
+                              style="@style/MaterialEditText.Accent" />
+      </LinearLayout>
+      <Button android:id="@id/login"
+              android:text="Войти"
+              style="@style/Button.Pink" />
+      <LinearLayout android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@id/recovery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/vertical_spacing3">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@0x7f0801e7" />
+        <TextView android:textSize="15.0sp"
+                  android:textStyle="bold"
+                  android:textColor="@color/color_rain_pink"
+                  android:paddingLeft="@dimen/horizontal_margin"
+                  android:paddingRight="@dimen/horizontal_margin"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Забыли пароль?" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

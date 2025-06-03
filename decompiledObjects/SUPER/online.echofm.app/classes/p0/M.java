@@ -1,0 +1,9 @@
+package p0;
+
+public abstract class M {}
+
+/* Location:
+ * Qualified Name:     p0.M
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

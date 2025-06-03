@@ -1,0 +1,9 @@
+package io.flutter.plugin.platform;
+
+public abstract class w {}
+
+/* Location:
+ * Qualified Name:     io.flutter.plugin.platform.w
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

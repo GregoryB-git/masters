@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAllCaps="true" android:textColor="@com.hintsolutions.raintv:color/color_rain_white" android:layout_marginRight="@com.hintsolutions.raintv:dimen/horizontal_margin" android:layout_height="wrap_content" android:text="Слушать эфир" android:layout_width="wrap_content" android:layout_marginLeft="@com.hintsolutions.raintv:dimen/horizontal_margin" android:textSize="20.0sp" />

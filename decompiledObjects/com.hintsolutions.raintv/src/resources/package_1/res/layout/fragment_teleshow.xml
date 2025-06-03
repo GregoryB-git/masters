@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <LinearLayout android:orientation="vertical"
+                android:id="@id/program_info_layout"
+                android:paddingLeft="@dimen/content_padding"
+                android:paddingTop="16.0dp"
+                android:paddingRight="@dimen/content_padding"
+                android:paddingBottom="16.0dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+      <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="22.0sp"
+                            android:textColor="@color/color_new_text_black"
+                            android:id="@id/program_name"
+                            android:paddingRight="20.0dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ph_program_name"
+                            android:lineSpacingExtra="8.0sp"
+                            raintv:font_face="@string/font_roboto_medium" />
+      <ImageView android:id="@id/program_info_in_content"
+                 android:background="?attr/selectableItemBackgroundBorderless"
+                 android:clickable="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="4.0dp"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentEnd="true"
+                 raintv:srcCompat="@0x7f080103" />
+    </RelativeLayout>
+    <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="12.0sp"
+                          android:textColor="@color/color_new_text_gray"
+                          android:id="@id/schedule"
+                          android:paddingTop="8.0dp"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/teleshow_schedule"
+                          android:lineSpacingExtra="8.0sp"
+                          raintv:font_face="@string/font_roboto_medium" />
+  </LinearLayout>
+  <com.google.android.material.tabs.TabLayout android:id="@id/tabs"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        raintv:tabMode="fixed"
+                        style="@style/WhiteTabLayoutWithWhiteBackground">
+    <com.google.android.material.tabs.TabItem android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/teleshow_all" />
+    <com.google.android.material.tabs.TabItem android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/teleshow_full" />
+  </com.google.android.material.tabs.TabLayout>
+  <androidx.viewpager.widget.ViewPager android:id="@id/pager"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+</LinearLayout>

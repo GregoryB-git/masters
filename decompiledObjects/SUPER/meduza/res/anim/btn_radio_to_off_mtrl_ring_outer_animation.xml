@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueTo="0.9" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:valueType="floatType" android:valueFrom="1.0" android:propertyName="scaleX" android:duration="183" />
+    <objectAnimator android:valueTo="0.5" android:interpolator="@io.meduza.meduza:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:propertyName="scaleX" android:duration="16" android:valueType="floatType" android:valueFrom="0.9" />
+    <objectAnimator android:valueType="floatType" android:valueFrom="0.5" android:interpolator="@io.meduza.meduza:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:valueTo="1.0" android:propertyName="scaleX" android:duration="300" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueType="floatType" android:interpolator="@io.meduza.meduza:interpolator/fast_out_slow_in" android:propertyName="scaleY" android:valueFrom="1.0" android:valueTo="0.9" android:duration="183" />
+    <objectAnimator android:valueType="floatType" android:propertyName="scaleY" android:valueFrom="0.9" android:duration="16" android:valueTo="0.5" android:interpolator="@io.meduza.meduza:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" />
+    <objectAnimator android:duration="300" android:interpolator="@io.meduza.meduza:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:valueType="floatType" android:propertyName="scaleY" android:valueFrom="0.5" android:valueTo="1.0" />
+  </set>
+</set>

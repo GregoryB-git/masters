@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="@color/color_rain_green"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+  <ImageView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="@dimen/horizontal_margin"
+             android:src="@0x7f0801f8"
+             android:layout_marginStart="@dimen/horizontal_margin" />
+  <TextView android:textSize="15.0sp"
+            android:textColor="@color/color_rain_white"
+            android:gravity="center_vertical"
+            android:id="@id/title"
+            android:layout_width="0.0dp"
+            android:layout_height="@dimen/vertical_spacing4"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:text="Утренний эфир"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/horizontal_margin" />
+  <ImageView android:id="@id/arrow"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="@dimen/horizontal_margin"
+             android:src="@0x7f0801df"
+             android:layout_marginEnd="@dimen/horizontal_margin" />
+</LinearLayout>

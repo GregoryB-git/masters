@@ -1,0 +1,36 @@
+package com.facebook.share.internal;
+
+import android.os.BaseBundle;
+import android.os.Bundle;
+import com.facebook.internal.NativeAppCallAttachmentStore.Attachment;
+import com.facebook.internal.Utility;
+import com.facebook.internal.Utility.Mapper;
+import com.facebook.share.model.ShareMedia;
+import java.util.List;
+import java.util.UUID;
+
+final class ShareInternalUtility$11
+  implements Utility.Mapper<ShareMedia, Bundle>
+{
+  public ShareInternalUtility$11(UUID paramUUID, List paramList) {}
+  
+  public Bundle apply(ShareMedia paramShareMedia)
+  {
+    NativeAppCallAttachmentStore.Attachment localAttachment = ShareInternalUtility.access$000(val$appCallId, paramShareMedia);
+    val$attachments.add(localAttachment);
+    Bundle localBundle = new Bundle();
+    localBundle.putString("type", paramShareMedia.getMediaType().name());
+    localBundle.putString("uri", localAttachment.getAttachmentUrl());
+    paramShareMedia = ShareInternalUtility.getUriExtension(localAttachment.getOriginalUri());
+    if (paramShareMedia != null) {
+      Utility.putNonEmptyString(localBundle, "extension", paramShareMedia);
+    }
+    return localBundle;
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.facebook.share.internal.ShareInternalUtility.11
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

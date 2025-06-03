@@ -1,0 +1,88 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.view.LayoutInflater
+ *  android.view.View
+ *  android.view.ViewGroup
+ *  android.widget.Button
+ *  android.widget.LinearLayout
+ *  androidx.annotation.NonNull
+ *  androidx.annotation.Nullable
+ *  androidx.viewbinding.ViewBinding
+ *  androidx.viewbinding.ViewBindings
+ *  com.rengwuxian.materialedittext.MaterialEditText
+ *  java.lang.NullPointerException
+ *  java.lang.Object
+ */
+package com.hintsolutions.raintv.databinding;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import com.hintsolutions.raintv.databinding.ToolbarBinding;
+import com.rengwuxian.materialedittext.MaterialEditText;
+
+public final class ActivityRecoveryBinding
+implements ViewBinding {
+    @NonNull
+    public final MaterialEditText email;
+    @NonNull
+    public final Button recovery;
+    @NonNull
+    private final LinearLayout rootView;
+    @NonNull
+    public final ToolbarBinding toolbar;
+
+    private ActivityRecoveryBinding(@NonNull LinearLayout linearLayout, @NonNull MaterialEditText materialEditText, @NonNull Button button, @NonNull ToolbarBinding toolbarBinding) {
+        this.rootView = linearLayout;
+        this.email = materialEditText;
+        this.recovery = button;
+        this.toolbar = toolbarBinding;
+    }
+
+    @NonNull
+    public static ActivityRecoveryBinding bind(@NonNull View view) {
+        int n = 2131296580;
+        MaterialEditText materialEditText = (MaterialEditText)ViewBindings.findChildViewById((View)view, (int)2131296580);
+        if (materialEditText != null) {
+            n = 2131297049;
+            Button button = (Button)ViewBindings.findChildViewById((View)view, (int)2131297049);
+            if (button != null) {
+                n = 2131297244;
+                Object object = ViewBindings.findChildViewById((View)view, (int)2131297244);
+                if (object != null) {
+                    object = ToolbarBinding.bind(object);
+                    return new ActivityRecoveryBinding((LinearLayout)view, materialEditText, button, (ToolbarBinding)object);
+                }
+            }
+        }
+        throw new NullPointerException("Missing required view with ID: ".concat(view.getResources().getResourceName(n)));
+    }
+
+    @NonNull
+    public static ActivityRecoveryBinding inflate(@NonNull LayoutInflater layoutInflater) {
+        return ActivityRecoveryBinding.inflate(layoutInflater, null, false);
+    }
+
+    @NonNull
+    public static ActivityRecoveryBinding inflate(@NonNull LayoutInflater layoutInflater, @Nullable ViewGroup viewGroup, boolean bl) {
+        layoutInflater = layoutInflater.inflate(2131492906, viewGroup, false);
+        if (bl) {
+            viewGroup.addView((View)layoutInflater);
+        }
+        return ActivityRecoveryBinding.bind((View)layoutInflater);
+    }
+
+    @NonNull
+    public LinearLayout getRoot() {
+        return this.rootView;
+    }
+}
+

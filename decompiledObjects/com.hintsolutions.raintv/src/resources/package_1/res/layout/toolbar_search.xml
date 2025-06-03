@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<androidx.appcompat.widget.Toolbar android:theme="@style/NewTheme"
+                      android:gravity="center_horizontal"
+                      android:id="@id/toolbar"
+                      android:layout_width="fill_parent"
+                      android:layout_height="?attr/actionBarSize"
+                      raintv:contentInsetStartWithNavigation="0.0dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <androidx.appcompat.widget.SearchView android:id="@id/search_input"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        raintv:defaultQueryHint="Найти"
+                        raintv:iconifiedByDefault="true"
+                        raintv:searchIcon="@null" />
+</androidx.appcompat.widget.Toolbar>

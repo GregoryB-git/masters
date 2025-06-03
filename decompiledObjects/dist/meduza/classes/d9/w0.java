@@ -1,0 +1,16 @@
+package d9;
+
+import java.lang.annotation.Annotation;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({java.lang.annotation.ElementType.TYPE})
+public @interface w0 {}
+
+/* Location:
+ * Qualified Name:     d9.w0
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

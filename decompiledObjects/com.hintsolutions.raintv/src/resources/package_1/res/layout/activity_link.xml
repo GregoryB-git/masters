@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <include android:id="@id/toolbar"
+           layout="@layout/toolbar" />
+  <ScrollView android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:gravity="center"
+                  android:orientation="vertical"
+                  android:padding="@dimen/padding"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+      <TextView android:textSize="15.0sp"
+                android:textColor="@color/color_rain_text_gray"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Уважаемый зритель, спасибо, что приобрели подписку на телеканал Дождь. Чтобы получить доступ к статьям и прямому эфиру не только в этом приложении, но и на сайте tvrain.tv и в приложениях для smart-tv, пожалуйста, зарегистриуйтесь прямо сейчас. Или войдите под логином и паролем, который Вы используете на нашем сайте." />
+      <Button android:id="@id/authorization"
+              android:layout_marginTop="@dimen/vertical_spacing3"
+              android:layout_marginBottom="8.0dp"
+              android:text="Войти"
+              style="@style/Button.Pink" />
+      <Button android:id="@id/registration"
+              android:layout_marginBottom="@dimen/vertical_spacing3"
+              android:text="Регистрация"
+              style="@style/Button.Pink" />
+      <TextView android:textSize="15.0sp"
+                android:textColor="@color/color_rain_text_gray"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Если Вы не сделаете это сейчас, то всегда сможете сделать это позже в Личном кабинете" />
+      <Button android:id="@id/later"
+              android:layout_marginTop="@dimen/vertical_spacing3"
+              android:layout_marginBottom="8.0dp"
+              android:text="Позже"
+              style="@style/Button.Gray" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+  <alpha android:toAlpha="0.0" android:interpolator="@anim/decelerate_interpolator" android:fromAlpha="1.0" android:duration="@com.hintsolutions.raintv:integer/abc_config_activityShortDur" />
+</set>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:paddingLeft="@dimen/content_padding"
+              android:paddingTop="16.0dp"
+              android:paddingRight="@dimen/content_padding"
+              android:paddingBottom="16.0dp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="22.0sp"
+                        android:textColor="@color/color_new_text_black"
+                        android:id="@id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ph_program_name"
+                        android:lineSpacingExtra="8.0sp"
+                        raintv:font_face="@string/font_roboto_medium" />
+  <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="12.0sp"
+                        android:textColor="@color/color_new_text_gray"
+                        android:id="@id/schedule"
+                        android:paddingTop="8.0dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/teleshow_schedule"
+                        android:lineSpacingExtra="8.0sp"
+                        raintv:font_face="@string/font_roboto_medium" />
+</LinearLayout>

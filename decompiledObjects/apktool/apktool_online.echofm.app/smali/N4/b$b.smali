@@ -1,0 +1,93 @@
+.class public final LN4/b$b;
+.super Lcom/google/protobuf/r$a;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/L;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LN4/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, LN4/b;->T()LN4/b;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/r$a;-><init>(Lcom/google/protobuf/r;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(LN4/b$a;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, LN4/b$b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public D(J)LN4/b$b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/r$a;->y()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/r$a;->p:Lcom/google/protobuf/r;
+
+    .line 5
+    .line 6
+    check-cast v0, LN4/b;
+
+    .line 7
+    .line 8
+    invoke-static {v0, p1, p2}, LN4/b;->U(LN4/b;J)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+.end method
+
+.method public E(I)LN4/b$b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/r$a;->y()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/r$a;->p:Lcom/google/protobuf/r;
+
+    .line 5
+    .line 6
+    check-cast v0, LN4/b;
+
+    .line 7
+    .line 8
+    invoke-static {v0, p1}, LN4/b;->V(LN4/b;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+.end method

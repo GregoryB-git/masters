@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:paddingTop="@com.hintsolutions.raintv:dimen/material_drawer_padding" android:layout_height="wrap_content" android:paddingBottom="@com.hintsolutions.raintv:dimen/material_drawer_padding" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <objectAnimator android:startOffset="0" android:valueFrom="1.0" android:valueTo="0.0" android:propertyName="opacity" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_linear" android:valueType="floatType" android:duration="75" />
+</set>

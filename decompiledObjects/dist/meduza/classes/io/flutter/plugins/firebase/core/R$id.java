@@ -1,0 +1,104 @@
+package io.flutter.plugins.firebase.core;
+
+public final class R$id
+{
+  public static final int accessibility_action_clickable_span = 2131361798;
+  public static final int accessibility_custom_action_0 = 2131361799;
+  public static final int accessibility_custom_action_1 = 2131361800;
+  public static final int accessibility_custom_action_10 = 2131361801;
+  public static final int accessibility_custom_action_11 = 2131361802;
+  public static final int accessibility_custom_action_12 = 2131361803;
+  public static final int accessibility_custom_action_13 = 2131361804;
+  public static final int accessibility_custom_action_14 = 2131361805;
+  public static final int accessibility_custom_action_15 = 2131361806;
+  public static final int accessibility_custom_action_16 = 2131361807;
+  public static final int accessibility_custom_action_17 = 2131361808;
+  public static final int accessibility_custom_action_18 = 2131361809;
+  public static final int accessibility_custom_action_19 = 2131361810;
+  public static final int accessibility_custom_action_2 = 2131361811;
+  public static final int accessibility_custom_action_20 = 2131361812;
+  public static final int accessibility_custom_action_21 = 2131361813;
+  public static final int accessibility_custom_action_22 = 2131361814;
+  public static final int accessibility_custom_action_23 = 2131361815;
+  public static final int accessibility_custom_action_24 = 2131361816;
+  public static final int accessibility_custom_action_25 = 2131361817;
+  public static final int accessibility_custom_action_26 = 2131361818;
+  public static final int accessibility_custom_action_27 = 2131361819;
+  public static final int accessibility_custom_action_28 = 2131361820;
+  public static final int accessibility_custom_action_29 = 2131361821;
+  public static final int accessibility_custom_action_3 = 2131361822;
+  public static final int accessibility_custom_action_30 = 2131361823;
+  public static final int accessibility_custom_action_31 = 2131361824;
+  public static final int accessibility_custom_action_4 = 2131361825;
+  public static final int accessibility_custom_action_5 = 2131361826;
+  public static final int accessibility_custom_action_6 = 2131361827;
+  public static final int accessibility_custom_action_7 = 2131361828;
+  public static final int accessibility_custom_action_8 = 2131361829;
+  public static final int accessibility_custom_action_9 = 2131361830;
+  public static final int action_container = 2131361840;
+  public static final int action_divider = 2131361842;
+  public static final int action_image = 2131361845;
+  public static final int action_text = 2131361853;
+  public static final int actions = 2131361854;
+  public static final int adjacent = 2131361857;
+  public static final int always = 2131361862;
+  public static final int alwaysAllow = 2131361863;
+  public static final int alwaysDisallow = 2131361864;
+  public static final int androidx_window_activity_scope = 2131361865;
+  public static final int async = 2131361866;
+  public static final int blocking = 2131361869;
+  public static final int bottomToTop = 2131361871;
+  public static final int chronometer = 2131361883;
+  public static final int dialog_button = 2131361893;
+  public static final int edit_text_id = 2131361896;
+  public static final int forever = 2131361954;
+  public static final int fragment_container_view_tag = 2131361955;
+  public static final int hide_ime_id = 2131361957;
+  public static final int icon = 2131361960;
+  public static final int icon_group = 2131361961;
+  public static final int info = 2131361965;
+  public static final int italic = 2131361966;
+  public static final int line1 = 2131361969;
+  public static final int line3 = 2131361970;
+  public static final int locale = 2131361973;
+  public static final int ltr = 2131361974;
+  public static final int never = 2131361981;
+  public static final int normal = 2131361983;
+  public static final int notification_background = 2131361984;
+  public static final int notification_main_column = 2131361985;
+  public static final int notification_main_column_container = 2131361986;
+  public static final int report_drawn = 2131361996;
+  public static final int right_icon = 2131361997;
+  public static final int right_side = 2131361998;
+  public static final int rtl = 2131361999;
+  public static final int special_effects_controller_view_tag = 2131362020;
+  public static final int tag_accessibility_actions = 2131362032;
+  public static final int tag_accessibility_clickable_spans = 2131362033;
+  public static final int tag_accessibility_heading = 2131362034;
+  public static final int tag_accessibility_pane_title = 2131362035;
+  public static final int tag_on_apply_window_listener = 2131362036;
+  public static final int tag_on_receive_content_listener = 2131362037;
+  public static final int tag_on_receive_content_mime_types = 2131362038;
+  public static final int tag_screen_reader_focusable = 2131362039;
+  public static final int tag_state_description = 2131362040;
+  public static final int tag_transition_group = 2131362041;
+  public static final int tag_unhandled_key_event_manager = 2131362042;
+  public static final int tag_unhandled_key_listeners = 2131362043;
+  public static final int tag_window_insets_animation_callback = 2131362044;
+  public static final int text = 2131362045;
+  public static final int text2 = 2131362046;
+  public static final int time = 2131362050;
+  public static final int title = 2131362051;
+  public static final int topToBottom = 2131362056;
+  public static final int view_tree_lifecycle_owner = 2131362062;
+  public static final int view_tree_on_back_pressed_dispatcher_owner = 2131362063;
+  public static final int view_tree_saved_state_registry_owner = 2131362064;
+  public static final int view_tree_view_model_store_owner = 2131362065;
+  public static final int visible_removing_fragment_view_tag = 2131362066;
+}
+
+/* Location:
+ * Qualified Name:     io.flutter.plugins.firebase.core.R.id
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

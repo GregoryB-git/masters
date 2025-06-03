@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/vertical_spacing3" xmlns:android="http://schemas.android.com/apk/res/android">
+  <Button android:textSize="15.0sp"
+          android:textStyle="normal"
+          android:textColor="@color/color_rain_text_gray"
+          android:id="@id/showMoreNews"
+          android:background="@drawable/btn_custom_rain_show_more"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Показать ещё"
+          android:textAllCaps="false" />
+</LinearLayout>

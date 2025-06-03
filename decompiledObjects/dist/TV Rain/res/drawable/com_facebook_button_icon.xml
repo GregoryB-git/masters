@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@com.hintsolutions.raintv:color/com_facebook_button_text_color" android:tintMode="multiply" android:viewportWidth="1365.3" android:height="16.0dip" android:width="16.0dip" android:viewportHeight="1365.3">
+  <path android:pathData="" android:strokeColor="#00000000" android:fillColor="#ffffffff" android:fillType="nonZero" android:fillAlpha="1.0" />
+</vector>

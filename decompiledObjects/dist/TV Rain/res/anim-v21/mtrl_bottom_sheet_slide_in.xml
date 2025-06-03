@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:duration="250" android:interpolator="@interpolator/linear_out_slow_in">
+  <translate android:toYDelta="0.0" android:fromYDelta="20.000004%p" />
+  <alpha android:toAlpha="1.0" android:fromAlpha="0.0" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:alpha="0.1" android:state_activated="true" android:color="?com.hintsolutions.raintv:colorPrimary" />
+  <item android:alpha="0.1" android:state_checked="true" android:color="?com.hintsolutions.raintv:colorPrimary" />
+  <item android:color="@color/transparent" />
+</selector>

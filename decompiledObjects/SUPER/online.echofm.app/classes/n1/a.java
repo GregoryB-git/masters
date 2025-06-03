@@ -1,0 +1,56 @@
+package n1;
+
+import F0.L;
+import F0.O;
+import F0.r;
+import F0.s;
+import F0.t;
+import g0.z;
+
+public final class a
+  implements r
+{
+  public final z a = new z(4);
+  public final O b = new O(-1, -1, "image/webp");
+  
+  public void a(long paramLong1, long paramLong2)
+  {
+    b.a(paramLong1, paramLong2);
+  }
+  
+  public void b(t paramt)
+  {
+    b.b(paramt);
+  }
+  
+  public boolean e(s params)
+  {
+    a.P(4);
+    byte[] arrayOfByte = a.e();
+    boolean bool = false;
+    params.n(arrayOfByte, 0, 4);
+    if (a.I() != 1380533830L) {
+      return false;
+    }
+    params.o(4);
+    a.P(4);
+    params.n(a.e(), 0, 4);
+    if (a.I() == 1464156752L) {
+      bool = true;
+    }
+    return bool;
+  }
+  
+  public int i(s params, L paramL)
+  {
+    return b.i(params, paramL);
+  }
+  
+  public void release() {}
+}
+
+/* Location:
+ * Qualified Name:     n1.a
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

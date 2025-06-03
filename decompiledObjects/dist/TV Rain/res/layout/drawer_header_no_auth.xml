@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@com.hintsolutions.raintv:color/colorPrimary" android:padding="@com.hintsolutions.raintv:dimen/default_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" />

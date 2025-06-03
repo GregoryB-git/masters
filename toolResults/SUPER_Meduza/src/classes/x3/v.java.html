@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Source - classes/x3/v.java</title>
+        <link rel="stylesheet" href="../../../css/androidstudio.css">
+        <link rel="stylesheet" href="../../../css/style.css">
+    </head>
+
+    <body>
+        <div>
+            <div class="line_numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br></div>
+            <div class="code">
+                <pre><code><code id="code-line-1"><span class="line_body">package x3;</span></code><br><code id="code-line-2"><span class="line_body"></span></code><br><code id="code-line-3"><span class="line_body">public final class v</span></code><br><code id="code-line-4"><span class="line_body">{</span></code><br><code id="code-line-5">  <span class="line_body">public static final int[] a = { 1, 2, 2, 2, 2, 3, 3, 4, 4, 5, 6, 6, 6, 7, 8, 8 };</span></code><br><code id="code-line-6">  <span class="line_body">public static final int[] b = { -1, 8000, 16000, 32000, -1, -1, 11025, 22050, 44100, -1, -1, 12000, 24000, 48000, -1, -1 };</span></code><br><code id="code-line-7">  <span class="line_body">public static final int[] c = { 64, 112, 128, 192, 224, 256, 384, 448, 512, 640, 768, 896, 1024, 1152, 1280, 1536, 1920, 2048, 2304, 2560, 2688, 2816, 2823, 2944, 3072, 3840, 4096, 6144, 7680 };</span></code><br><code id="code-line-8"><span class="line_body">}</span></code><br><code id="code-line-9"><span class="line_body"></span></code><br><code id="code-line-10"><span class="line_body">/* Location:</span></code><br><code id="code-line-11"> <span class="line_body">* Qualified Name:     x3.v</span></code><br><code id="code-line-12"> <span class="line_body">* Java Class Version: 6 (50.0)</span></code><br><code id="code-line-13"> <span class="line_body">* JD-Core Version:    0.7.1</span></code><br><code id="code-line-14"> <span class="line_body">*/</span></code><br></code></pre>
+            </div>
+        </div>
+        <script src="../../../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            var query_params = decodeURIComponent(window.location.search.substring(1)),
+                variables = query_params.split('&'),
+                start_line,
+                end_line,
+                criticality;
+            for (var i = 0; i < variables.length; i++) {
+                var pair = variables[i].split('=');
+                if (pair[0] == "start_line") {
+                    start_line = pair[1];
+                }
+                if (pair[0] == "end_line") {
+                    end_line = pair[1];
+                }
+                if (pair[0] == "criticality") {
+                    criticality = pair[1];
+                }
+            }
+            for (var i = start_line; i <= end_line; i++) {
+                $("#code-line-" + i).addClass("vulnerable_line " + criticality);
+            }
+        </script>
+    </body>
+
+</html>

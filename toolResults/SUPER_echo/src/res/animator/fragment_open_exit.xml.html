@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Source - res/animator/fragment_open_exit.xml</title>
+        <link rel="stylesheet" href="../../../css/androidstudio.css">
+        <link rel="stylesheet" href="../../../css/style.css">
+    </head>
+
+    <body>
+        <div>
+            <div class="line_numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br></div>
+            <div class="code">
+                <pre><code><code id="code-line-1"><span class="line_body">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;</span></code><br><code id="code-line-2"><span class="line_body">&lt;set xmlns:android="http://schemas.android.com/apk/res/android"&gt;</span></code><br><code id="code-line-3">  <span class="line_body">&lt;set android:ordering="sequentially"&gt;</span></code><br><code id="code-line-4">    <span class="line_body">&lt;objectAnimator android:duration="50" android:interpolator="@anim/linear_interpolator" android:propertyName="alpha" android:valueTo="1.0" android:valueFrom="1.0" /&gt;</span></code><br><code id="code-line-5">    <span class="line_body">&lt;objectAnimator android:propertyName="alpha" android:duration="50" android:interpolator="@anim/linear_interpolator" android:valueFrom="1.0" android:valueTo="0.0" /&gt;</span></code><br><code id="code-line-6">  <span class="line_body">&lt;/set&gt;</span></code><br><code id="code-line-7">  <span class="line_body">&lt;objectAnimator android:valueTo="1.1" android:interpolator="@online.echofm.app:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleX" android:valueFrom="1.0" android:duration="300" /&gt;</span></code><br><code id="code-line-8">  <span class="line_body">&lt;objectAnimator android:interpolator="@online.echofm.app:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleY" android:valueFrom="1.0" android:duration="300" android:valueTo="1.1" /&gt;</span></code><br><code id="code-line-9"><span class="line_body">&lt;/set&gt;</span></code><br></code></pre>
+            </div>
+        </div>
+        <script src="../../../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            var query_params = decodeURIComponent(window.location.search.substring(1)),
+                variables = query_params.split('&'),
+                start_line,
+                end_line,
+                criticality;
+            for (var i = 0; i < variables.length; i++) {
+                var pair = variables[i].split('=');
+                if (pair[0] == "start_line") {
+                    start_line = pair[1];
+                }
+                if (pair[0] == "end_line") {
+                    end_line = pair[1];
+                }
+                if (pair[0] == "criticality") {
+                    criticality = pair[1];
+                }
+            }
+            for (var i = start_line; i <= end_line; i++) {
+                $("#code-line-" + i).addClass("vulnerable_line " + criticality);
+            }
+        </script>
+    </body>
+
+</html>

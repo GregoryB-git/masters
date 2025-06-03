@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="1.0" android:duration="50" android:valueTo="1.0" android:interpolator="@anim/linear_interpolator" android:propertyName="alpha" />
+    <objectAnimator android:valueTo="0.0" android:propertyName="alpha" android:interpolator="@anim/linear_interpolator" android:duration="50" android:valueFrom="1.0" />
+  </set>
+  <objectAnimator android:valueTo="1.1" android:propertyName="scaleX" android:duration="300" android:valueFrom="1.0" android:interpolator="@com.hintsolutions.raintv:anim/fragment_fast_out_extra_slow_in" />
+  <objectAnimator android:valueTo="1.1" android:duration="300" android:valueFrom="1.0" android:interpolator="@com.hintsolutions.raintv:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleY" />
+</set>

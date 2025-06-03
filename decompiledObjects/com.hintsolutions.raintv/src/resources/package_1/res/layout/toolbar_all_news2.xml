@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:theme="@style/NewTheme"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="?attr/colorPrimary"
+              android:layout_width="fill_parent"
+              android:layout_height="?attr/actionBarSize" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <RelativeLayout android:id="@id/menuToggleHolder"
+                  android:clickable="true"
+                  android:layout_width="56.0dp"
+                  android:layout_height="56.0dp"
+                  android:layout_centerVertical="true"
+                  style="@style/SelectableFull">
+    <ImageView android:id="@id/imageView8"
+               android:background="?attr/selectableItemBackgroundBorderless"
+               android:paddingLeft="8.0dp"
+               android:paddingTop="1.0dp"
+               android:paddingRight="8.0dp"
+               android:clickable="false"
+               android:layout_width="48.0dp"
+               android:layout_height="48.0dp"
+               android:src="@0x7f08013c"
+               android:layout_centerInParent="true"
+               android:paddingHorizontal="8.0dp" />
+    <TextView android:textSize="10.0sp"
+              android:gravity="center"
+              android:id="@id/toggleBadgeTextView"
+              android:background="@drawable/white_badge_background"
+              android:visibility="gone"
+              android:layout_width="20.0dp"
+              android:layout_height="20.0dp"
+              android:layout_marginTop="10.0dp"
+              android:layout_marginRight="10.0dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:textIsSelectable="false" />
+  </RelativeLayout>
+  <LinearLayout android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/custom_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+      <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="22.0sp"
+                            android:id="@id/toolbar_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:singleLine="true"
+                            android:layout_centerVertical="true"
+                            raintv:font_face="@string/font_roboto_regular"
+                            style="@style/Base.TextAppearance.AppCompat.Title" />
+    </RelativeLayout>
+  </LinearLayout>
+  <Button android:textColor="@color/white"
+          android:id="@id/toolbar_donate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/toolbar_donate"
+          android:layout_weight="1.0"
+          style="@style/Button.Pink" />
+  <ImageView android:id="@id/searchBtn"
+             android:background="?attr/selectableItemBackgroundBorderless"
+             android:padding="8.0dp"
+             android:clickable="true"
+             android:layout_width="48.0dp"
+             android:layout_height="48.0dp"
+             android:src="@0x7f0801cb"
+             android:layout_weight="0.0" />
+</LinearLayout>

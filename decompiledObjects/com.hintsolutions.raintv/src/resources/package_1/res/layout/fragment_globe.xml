@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout android:layout_width="fill_parent"
+                  android:layout_height="0.0dp"
+                  android:layout_weight="1.0">
+    <LinearLayout android:orientation="vertical"
+                  android:id="@id/webViewContainer"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center"
+                  android:orientation="horizontal"
+                  android:id="@id/globeGesturesLayout"
+                  android:visibility="gone"
+                  android:clickable="true"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+      <ImageView android:id="@id/imageView9"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="8.0dp"
+                 android:src="@0x7f0800fa" />
+      <ImageView android:id="@id/imageView10"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8.0dp"
+                 android:src="@0x7f0800fb" />
+    </LinearLayout>
+  </RelativeLayout>
+  <View android:background="@drawable/shadow_reverse"
+        android:layout_width="fill_parent"
+        android:layout_height="6.0dp" />
+  <LinearLayout android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="9.0dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+    <TextView android:id="@id/viewsCountTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+    <ImageView android:id="@id/imageView"
+               android:layout_width="24.0dp"
+               android:layout_height="24.0dp"
+               android:layout_marginLeft="8.0dp"
+               android:layout_marginRight="8.0dp"
+               android:src="@0x7f0801d3" />
+    <ImageView android:id="@id/imageView3"
+               android:layout_width="24.0dp"
+               android:layout_height="24.0dp"
+               android:layout_marginLeft="8.0dp"
+               android:layout_marginRight="8.0dp"
+               android:src="@0x7f0801d2" />
+    <TextView android:id="@id/videosCountTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>

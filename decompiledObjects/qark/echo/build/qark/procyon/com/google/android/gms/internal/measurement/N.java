@@ -1,0 +1,23 @@
+// 
+// Decompiled by Procyon v1.0-SNAPSHOT
+// 
+
+package com.google.android.gms.internal.measurement;
+
+public final class N implements P
+{
+    public final f3 a;
+    public final String b;
+    
+    public N(final f3 a, final String b) {
+        this.a = a;
+        this.b = b;
+    }
+    
+    @Override
+    public final f3 a(final s s) {
+        final f3 d = this.a.d();
+        d.f(this.b, s);
+        return d;
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1" android:valueTo="0.2" android:valueFrom="0.2" android:propertyName="scaleX" android:duration="200" />
+    <objectAnimator android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1" android:valueTo="0.2" android:duration="300" android:valueFrom="0.2" android:propertyName="scaleX" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1" android:valueTo="0.2" android:valueFrom="0.2" android:duration="200" android:propertyName="scaleY" />
+    <objectAnimator android:valueFrom="0.2" android:propertyName="scaleY" android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1" android:valueTo="0.2" android:duration="300" />
+  </set>
+</set>

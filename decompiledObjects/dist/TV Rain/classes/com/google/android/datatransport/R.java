@@ -1,0 +1,9 @@
+package com.google.android.datatransport;
+
+public final class R {}
+
+/* Location:
+ * Qualified Name:     com.google.android.datatransport.R
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

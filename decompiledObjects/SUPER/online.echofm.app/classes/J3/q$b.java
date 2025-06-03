@@ -1,0 +1,77 @@
+package J3;
+
+public final class q$b
+  extends B.e.d.a.b.d.a
+{
+  public String a;
+  public String b;
+  public Long c;
+  
+  public B.e.d.a.b.d a()
+  {
+    Object localObject1 = a;
+    Object localObject2 = "";
+    if (localObject1 == null)
+    {
+      localObject1 = new StringBuilder();
+      ((StringBuilder)localObject1).append("");
+      ((StringBuilder)localObject1).append(" name");
+      localObject2 = ((StringBuilder)localObject1).toString();
+    }
+    localObject1 = localObject2;
+    if (b == null)
+    {
+      localObject1 = new StringBuilder();
+      ((StringBuilder)localObject1).append((String)localObject2);
+      ((StringBuilder)localObject1).append(" code");
+      localObject1 = ((StringBuilder)localObject1).toString();
+    }
+    localObject2 = localObject1;
+    if (c == null)
+    {
+      localObject2 = new StringBuilder();
+      ((StringBuilder)localObject2).append((String)localObject1);
+      ((StringBuilder)localObject2).append(" address");
+      localObject2 = ((StringBuilder)localObject2).toString();
+    }
+    if (((String)localObject2).isEmpty()) {
+      return new q(a, b, c.longValue(), null);
+    }
+    localObject1 = new StringBuilder();
+    ((StringBuilder)localObject1).append("Missing required properties:");
+    ((StringBuilder)localObject1).append((String)localObject2);
+    throw new IllegalStateException(((StringBuilder)localObject1).toString());
+  }
+  
+  public B.e.d.a.b.d.a b(long paramLong)
+  {
+    c = Long.valueOf(paramLong);
+    return this;
+  }
+  
+  public B.e.d.a.b.d.a c(String paramString)
+  {
+    if (paramString != null)
+    {
+      b = paramString;
+      return this;
+    }
+    throw new NullPointerException("Null code");
+  }
+  
+  public B.e.d.a.b.d.a d(String paramString)
+  {
+    if (paramString != null)
+    {
+      a = paramString;
+      return this;
+    }
+    throw new NullPointerException("Null name");
+  }
+}
+
+/* Location:
+ * Qualified Name:     J3.q.b
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

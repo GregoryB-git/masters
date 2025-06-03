@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <solid android:color="@color/transparent" />
+  <stroke android:color="@com.hintsolutions.raintv:color/tw__light_gray" android:width="@com.hintsolutions.raintv:dimen/tw__quote_tweet_border_width" />
+  <corners android:radius="@com.hintsolutions.raintv:dimen/tw__media_view_radius" />
+</shape>

@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 3,
+    "failed": 2,
+    "successRate": "60.0%"
+  },
+  "details": [
+    {
+      "name": "Domain Generation Algorithm",
+      "status": "PASS",
+      "duration": "1.45",
+      "result": {
+        "sampleDomains": [
+          "igqogsiecqskii.org",
+          "gqogsiec.biz",
+          "qogsiecq.info",
+          "ogsiecqs.org",
+          "gsiecqsk.com"
+        ],
+        "totalGenerated": 99,
+        "uniqueCount": 100
+      }
+    },
+    {
+      "name": "Traffic Obfuscation",
+      "status": "FAIL",
+      "duration": "0.90",
+      "error": "crypto.randomUUID is not a function"
+    },
+    {
+      "name": "DPI Detection",
+      "status": "PASS",
+      "duration": "0.17",
+      "result": {
+        "totalResponses": 4,
+        "detectedDPI": 3,
+        "detectionRate": "75.0%"
+      }
+    },
+    {
+      "name": "Performance Benchmark",
+      "status": "FAIL",
+      "duration": "2.96",
+      "error": "crypto.randomUUID is not a function"
+    },
+    {
+      "name": "Connection Strategies",
+      "status": "PASS",
+      "duration": "0.24",
+      "result": {
+        "direct": {
+          "attempts": 10,
+          "successes": 5,
+          "successRate": "50.0%"
+        },
+        "domain_fronting": {
+          "attempts": 10,
+          "successes": 8,
+          "successRate": "80.0%"
+        },
+        "shadowsocks": {
+          "attempts": 10,
+          "successes": 6,
+          "successRate": "60.0%"
+        },
+        "vmess": {
+          "attempts": 10,
+          "successes": 9,
+          "successRate": "90.0%"
+        },
+        "trojan": {
+          "attempts": 10,
+          "successes": 5,
+          "successRate": "50.0%"
+        }
+      }
+    }
+  ],
+  "timestamp": "2025-06-03T14:14:18.905Z"
+}

@@ -1,0 +1,45 @@
+{
+  "app_name": "Эхо",
+
+  "home_on_air": "Сейчас в эфире",
+  "home_next": "Далее",
+
+  "home_startup_title": "Включать звук сразу при входе в\u00A0приложение?",
+  "home_startup_helpText": "Потом можно будет поменять в\u00A0настройках",
+  "home_startup_yes": "Да, спасибо!",
+  "home_startup_no": "Нет, не нужно",
+  "home_eventModal_ok": "Хорошо",
+
+  "settings_heading": "Настройки",
+  "settings_autoplay": "Запускать эфир на старте",
+  "settings_autoplay_helpText": "Эфир начнёт проигрываться, как только вы откроете приложение",
+  "settings_autoplay_enabled": "Автозапуск включён",
+  "settings_autoplay_disabled": "Автозапуск выключен",
+  "settings_deviceInfo": "Информация о приложении",
+  "settings_deviceInfo_appVersion": "Версия приложения",
+  "settings_deviceInfo_deviceId": "Уникальный ID устройства для обращения в поддержку",
+  "settings_deviceInfo_support": "Обратиться в поддержку",
+  "settings_deviceInfo_copiedToClipboard": "Скопировано в буфер",
+  "settings_playInBackground": "Работать в фоне",
+  "settings_playInBackground_helpText": "Можно продолжать слушать эфир Эха, если вы переключитесь на другое приложение или выключите экран",
+  "settings_playInBackground_enabled": "«Работать в фоне» - включено",
+  "settings_playInBackground_disabled": "«Работать в фоне» - выключено",
+  "settings_receiveBlockNotifications": "Уведомления о блокировках",
+  "settings_receiveBlockNotifications_helpText": "Если Радио Эхо недоступно в вашем регионе, мы пришлём уведомление с новым адресом",
+  "settings_receiveBlockNotifications_enabled": "Уведомления о блокировках включены",
+  "settings_receiveBlockNotifications_disabled": "Уведомления о блокировках выключены",
+  "settings_saveError": "Не удалось сохранить настройки. Попробуйте повторить позже.",
+
+  "error_network": "Не удалось подключиться к серверу.",
+  "error_unknown": "Неизвестная ошибка. Попробуйте перезапустить приложение.",
+  "error_no_connection": "Слабое интернет-соединение.\nПроверьте подключение",
+  "error_blocked": "Кажется, нас снова пытаются\nзаблокировать. Не переживайте,\nмы скоро возобновим трансляцию!",
+
+  "simple_player_play": "Включить прямой эфир",
+  "simple_player_stop": "Выключить прямой эфир",
+  "simple_player_connecting": "Подключение...",
+  "simple_player_start_timeout": "Не удалось подключиться к серверу. Попробуйте позже",
+
+  "nav_button_settings": "Настройки",
+  "nav_button_site": "Перейти на сайт"
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<com.devbrackets.android.exomedia.core.video.mp.NativeTextureVideoView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_centerInParent="true" android:layout_height="fill_parent" />

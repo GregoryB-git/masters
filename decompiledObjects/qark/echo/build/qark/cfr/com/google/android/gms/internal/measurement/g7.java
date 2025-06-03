@@ -1,0 +1,48 @@
+/*
+ * Decompiled with CFR 0_124.
+ * 
+ * Could not load the following classes:
+ *  java.lang.Object
+ */
+package com.google.android.gms.internal.measurement;
+
+import W2.s;
+import W2.t;
+import com.google.android.gms.internal.measurement.i7;
+import com.google.android.gms.internal.measurement.j7;
+
+public final class g7
+implements s {
+    public static g7 p = new g7();
+    public final s o = t.b(new i7());
+
+    public static boolean a() {
+        return ((j7)p.get()).a();
+    }
+
+    public static boolean b() {
+        return ((j7)p.get()).b();
+    }
+
+    public static boolean c() {
+        return ((j7)p.get()).c();
+    }
+
+    public static boolean d() {
+        return ((j7)p.get()).d();
+    }
+
+    public static boolean e() {
+        return ((j7)p.get()).f();
+    }
+
+    public static boolean f() {
+        return ((j7)p.get()).g();
+    }
+
+    @Override
+    public final /* synthetic */ Object get() {
+        return (j7)this.o.get();
+    }
+}
+

@@ -1,0 +1,247 @@
+package ma;
+
+import a0.j;
+import java.util.AbstractList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.RandomAccess;
+
+public final class m
+  extends c<Double>
+  implements RandomAccess, c1
+{
+  public double[] b;
+  public int c;
+  
+  static
+  {
+    new m(new double[0], 0, false);
+  }
+  
+  public m()
+  {
+    this(new double[10], 0, true);
+  }
+  
+  public m(double[] paramArrayOfDouble, int paramInt, boolean paramBoolean)
+  {
+    super(paramBoolean);
+    b = paramArrayOfDouble;
+    c = paramInt;
+  }
+  
+  public final void add(int paramInt, Object paramObject)
+  {
+    double d = ((Double)paramObject).doubleValue();
+    a();
+    if (paramInt >= 0)
+    {
+      int i = c;
+      if (paramInt <= i)
+      {
+        paramObject = b;
+        if (i < paramObject.length)
+        {
+          System.arraycopy(paramObject, paramInt, paramObject, paramInt + 1, i - paramInt);
+        }
+        else
+        {
+          double[] arrayOfDouble = new double[j.d(i, 3, 2, 1)];
+          System.arraycopy(paramObject, 0, arrayOfDouble, 0, paramInt);
+          System.arraycopy(b, paramInt, arrayOfDouble, paramInt + 1, c - paramInt);
+          b = arrayOfDouble;
+        }
+        b[paramInt] = d;
+        c += 1;
+        modCount += 1;
+        return;
+      }
+    }
+    paramObject = j.n("Index:", paramInt, ", Size:");
+    ((StringBuilder)paramObject).append(c);
+    throw new IndexOutOfBoundsException(((StringBuilder)paramObject).toString());
+  }
+  
+  public final boolean add(Object paramObject)
+  {
+    h(((Double)paramObject).doubleValue());
+    return true;
+  }
+  
+  public final boolean addAll(Collection<? extends Double> paramCollection)
+  {
+    a();
+    Object localObject = a0.a;
+    paramCollection.getClass();
+    if (!(paramCollection instanceof m)) {
+      return super.addAll(paramCollection);
+    }
+    paramCollection = (m)paramCollection;
+    int i = c;
+    if (i == 0) {
+      return false;
+    }
+    int j = c;
+    if (Integer.MAX_VALUE - j >= i)
+    {
+      j += i;
+      localObject = b;
+      if (j > localObject.length) {
+        b = Arrays.copyOf((double[])localObject, j);
+      }
+      System.arraycopy(b, 0, b, c, c);
+      c = j;
+      modCount += 1;
+      return true;
+    }
+    throw new OutOfMemoryError();
+  }
+  
+  public final a0.d c(int paramInt)
+  {
+    if (paramInt >= c) {
+      return new m(Arrays.copyOf(b, paramInt), c, true);
+    }
+    throw new IllegalArgumentException();
+  }
+  
+  public final boolean contains(Object paramObject)
+  {
+    boolean bool;
+    if (indexOf(paramObject) != -1) {
+      bool = true;
+    } else {
+      bool = false;
+    }
+    return bool;
+  }
+  
+  public final boolean equals(Object paramObject)
+  {
+    if (this == paramObject) {
+      return true;
+    }
+    if (!(paramObject instanceof m)) {
+      return super.equals(paramObject);
+    }
+    paramObject = (m)paramObject;
+    if (c != c) {
+      return false;
+    }
+    paramObject = b;
+    for (int i = 0; i < c; i++) {
+      if (Double.doubleToLongBits(b[i]) != Double.doubleToLongBits(paramObject[i])) {
+        return false;
+      }
+    }
+    return true;
+  }
+  
+  public final Object get(int paramInt)
+  {
+    i(paramInt);
+    return Double.valueOf(b[paramInt]);
+  }
+  
+  public final void h(double paramDouble)
+  {
+    a();
+    int i = c;
+    double[] arrayOfDouble1 = b;
+    if (i == arrayOfDouble1.length)
+    {
+      arrayOfDouble2 = new double[j.d(i, 3, 2, 1)];
+      System.arraycopy(arrayOfDouble1, 0, arrayOfDouble2, 0, i);
+      b = arrayOfDouble2;
+    }
+    double[] arrayOfDouble2 = b;
+    i = c;
+    c = (i + 1);
+    arrayOfDouble2[i] = paramDouble;
+  }
+  
+  public final int hashCode()
+  {
+    int i = 1;
+    for (int j = 0; j < c; j++) {
+      i = i * 31 + a0.b(Double.doubleToLongBits(b[j]));
+    }
+    return i;
+  }
+  
+  public final void i(int paramInt)
+  {
+    if ((paramInt >= 0) && (paramInt < c)) {
+      return;
+    }
+    StringBuilder localStringBuilder = j.n("Index:", paramInt, ", Size:");
+    localStringBuilder.append(c);
+    throw new IndexOutOfBoundsException(localStringBuilder.toString());
+  }
+  
+  public final int indexOf(Object paramObject)
+  {
+    if (!(paramObject instanceof Double)) {
+      return -1;
+    }
+    double d = ((Double)paramObject).doubleValue();
+    int i = c;
+    for (int j = 0; j < i; j++) {
+      if (b[j] == d) {
+        return j;
+      }
+    }
+    return -1;
+  }
+  
+  public final Object remove(int paramInt)
+  {
+    a();
+    i(paramInt);
+    double[] arrayOfDouble = b;
+    double d = arrayOfDouble[paramInt];
+    int i = c;
+    if (paramInt < i - 1) {
+      System.arraycopy(arrayOfDouble, paramInt + 1, arrayOfDouble, paramInt, i - paramInt - 1);
+    }
+    c -= 1;
+    modCount += 1;
+    return Double.valueOf(d);
+  }
+  
+  public final void removeRange(int paramInt1, int paramInt2)
+  {
+    a();
+    if (paramInt2 >= paramInt1)
+    {
+      double[] arrayOfDouble = b;
+      System.arraycopy(arrayOfDouble, paramInt2, arrayOfDouble, paramInt1, c - paramInt2);
+      c -= paramInt2 - paramInt1;
+      modCount += 1;
+      return;
+    }
+    throw new IndexOutOfBoundsException("toIndex < fromIndex");
+  }
+  
+  public final Object set(int paramInt, Object paramObject)
+  {
+    double d1 = ((Double)paramObject).doubleValue();
+    a();
+    i(paramInt);
+    paramObject = b;
+    double d2 = paramObject[paramInt];
+    paramObject[paramInt] = d1;
+    return Double.valueOf(d2);
+  }
+  
+  public final int size()
+  {
+    return c;
+  }
+}
+
+/* Location:
+ * Qualified Name:     ma.m
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

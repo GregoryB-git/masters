@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<include xmlns:android="http://schemas.android.com/apk/res/android" style="@com.hintsolutions.raintv:style/tw__TweetActionButtonBar" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@com.hintsolutions.raintv:id/quote_tweet_holder" layout="@com.hintsolutions.raintv:layout/tw__action_bar" />

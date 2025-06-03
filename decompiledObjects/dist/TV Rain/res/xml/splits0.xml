@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<splits>
+  <module name="">
+    <language>
+      <entry split="" key="af" />
+      <entry key="am" split="" />
+      <entry key="ar" split="" />
+      <entry key="as" split="" />
+      <entry key="az" split="" />
+      <entry key="be" split="" />
+      <entry split="" key="bg" />
+      <entry key="bn" split="" />
+      <entry split="" key="bs" />
+      <entry key="ca" split="" />
+      <entry key="cs" split="" />
+      <entry key="da" split="" />
+      <entry split="" key="de" />
+      <entry key="el" split="" />
+      <entry split="" key="en" />
+      <entry split="" key="es" />
+      <entry key="et" split="" />
+      <entry split="" key="eu" />
+      <entry split="" key="fa" />
+      <entry split="" key="fi" />
+      <entry key="fr" split="" />
+      <entry split="" key="gl" />
+      <entry split="" key="gu" />
+      <entry key="hi" split="" />
+      <entry split="" key="hr" />
+      <entry key="hu" split="" />
+      <entry key="hy" split="" />
+      <entry key="in" split="" />
+      <entry key="is" split="" />
+      <entry split="" key="it" />
+      <entry key="iw" split="" />
+      <entry split="" key="ja" />
+      <entry key="ka" split="" />
+      <entry key="kk" split="" />
+      <entry split="" key="km" />
+      <entry split="" key="kn" />
+      <entry split="" key="ko" />
+      <entry split="" key="ky" />
+      <entry split="" key="lo" />
+      <entry split="" key="lt" />
+      <entry key="lv" split="" />
+      <entry split="" key="mk" />
+      <entry key="ml" split="" />
+      <entry key="mn" split="" />
+      <entry key="mr" split="" />
+      <entry key="ms" split="" />
+      <entry split="" key="my" />
+      <entry split="" key="nb" />
+      <entry split="" key="ne" />
+      <entry key="nl" split="" />
+      <entry key="or" split="" />
+      <entry split="" key="pa" />
+      <entry split="" key="pl" />
+      <entry key="pt" split="" />
+      <entry split="" key="ro" />
+      <entry split="" key="ru" />
+      <entry split="" key="si" />
+      <entry split="" key="sk" />
+      <entry key="sl" split="" />
+      <entry key="sq" split="" />
+      <entry key="sr" split="" />
+      <entry key="sv" split="" />
+      <entry key="sw" split="" />
+      <entry key="ta" split="" />
+      <entry key="te" split="" />
+      <entry key="th" split="" />
+      <entry key="tl" split="" />
+      <entry key="tr" split="" />
+      <entry split="" key="uk" />
+      <entry split="" key="ur" />
+      <entry key="uz" split="" />
+      <entry split="" key="vi" />
+      <entry split="" key="zh" />
+      <entry split="" key="zu" />
+    </language>
+  </module>
+</splits>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="horizontal"
+              android:id="@id/layout"
+              android:background="?android:attr/selectableItemBackground"
+              android:paddingLeft="@dimen/content_padding"
+              android:paddingRight="@dimen/content_padding"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <com.github.vipulasri.timelineview.TimelineView android:id="@id/timeline"
+                        android:paddingTop="17.0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        raintv:line="@color/color_timeline_gray"
+                        raintv:lineSize="1.0dp"
+                        raintv:marker="@drawable/timeline_marker"
+                        raintv:markerInCenter="false"
+                        raintv:markerSize="15.0dp" />
+  <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30.0dp"
+                android:layout_marginTop="@dimen/content_padding"
+                android:layout_marginBottom="@dimen/content_padding">
+    <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="12.0sp"
+                          android:id="@id/date"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="4.0dp"
+                          android:text="@string/ph_date"
+                          raintv:font_face="@string/font_roboto_regular" />
+    <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="16.0sp"
+                          android:textColor="@color/color_new_text_black"
+                          android:ellipsize="end"
+                          android:id="@id/name"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/ph_news_name"
+                          android:maxLines="3"
+                          raintv:font_face="@string/font_roboto_regular" />
+  </LinearLayout>
+</LinearLayout>

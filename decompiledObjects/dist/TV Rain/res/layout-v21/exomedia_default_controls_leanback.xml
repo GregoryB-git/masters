@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:background="?colorPrimary" android:minHeight="@com.hintsolutions.raintv:dimen/exomedia_leanback_controls_height" android:layout_width="fill_parent" />

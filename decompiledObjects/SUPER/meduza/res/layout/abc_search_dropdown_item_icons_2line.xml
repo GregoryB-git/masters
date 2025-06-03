@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="58.0dip" style="@io.meduza.meduza:style/RtlOverlay.Widget.AppCompat.Search.DropDown" android:layout_width="fill_parent" />

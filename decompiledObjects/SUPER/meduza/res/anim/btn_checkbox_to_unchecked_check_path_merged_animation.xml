@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <objectAnimator android:valueType="pathType" android:valueFrom="" android:duration="166" android:valueTo="" android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:propertyName="pathData" />
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="1.0" android:valueTo="1.0" android:propertyName="fillAlpha" android:duration="133" android:interpolator="@interpolator/linear" />
+    <objectAnimator android:valueFrom="1.0" android:valueTo="0.0" android:duration="33" android:propertyName="fillAlpha" android:interpolator="@io.meduza.meduza:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0" />
+  </set>
+</set>

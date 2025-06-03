@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:state_enabled="true" app:state_dragged="true">
+    <set>
+      <objectAnimator android:valueType="floatType" android:startDelay="@com.hintsolutions.raintv:integer/mtrl_card_anim_delay_ms" android:duration="@com.hintsolutions.raintv:integer/mtrl_card_anim_duration_ms" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" android:propertyName="translationZ" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_card_dragged_z" />
+    </set>
+  </item>
+  <item android:state_enabled="true">
+    <set>
+      <objectAnimator android:interpolator="@com.hintsolutions.raintv:anim/mtrl_card_lowers_interpolator" android:valueType="floatType" android:valueTo="0.0dip" android:duration="@com.hintsolutions.raintv:integer/mtrl_card_anim_duration_ms" android:propertyName="translationZ" />
+    </set>
+  </item>
+</selector>

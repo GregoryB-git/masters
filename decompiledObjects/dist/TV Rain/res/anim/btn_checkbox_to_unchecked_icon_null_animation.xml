@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:duration="166" android:valueTo="0.2" android:interpolator="@com.hintsolutions.raintv:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:valueFrom="0.2" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@com.hintsolutions.raintv:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:valueFrom="0.2" android:valueTo="0.2" android:propertyName="scaleX" android:duration="333" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:duration="166" android:valueFrom="0.2" android:propertyName="scaleY" android:valueTo="0.2" android:interpolator="@com.hintsolutions.raintv:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" />
+    <objectAnimator android:propertyName="scaleY" android:interpolator="@com.hintsolutions.raintv:interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1" android:valueFrom="0.2" android:valueTo="0.2" android:duration="333" />
+  </set>
+</set>

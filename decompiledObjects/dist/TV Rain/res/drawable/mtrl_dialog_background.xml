@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetTop="@com.hintsolutions.raintv:dimen/appcompat_dialog_background_inset" android:insetLeft="@com.hintsolutions.raintv:dimen/appcompat_dialog_background_inset" android:insetRight="@com.hintsolutions.raintv:dimen/appcompat_dialog_background_inset" android:insetBottom="@com.hintsolutions.raintv:dimen/appcompat_dialog_background_inset">
+  <shape android:shape="rectangle">
+    <corners android:radius="@com.hintsolutions.raintv:dimen/mtrl_shape_corner_size_medium_component" />
+    <solid android:color="?com.hintsolutions.raintv:colorSurface" />
+  </shape>
+</inset>

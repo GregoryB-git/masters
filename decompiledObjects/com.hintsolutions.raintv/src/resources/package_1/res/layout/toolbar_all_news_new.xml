@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="?attr/colorPrimary"
+              android:layout_width="fill_parent"
+              android:layout_height="?attr/actionBarSize" xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout android:id="@id/menuToggleHolder"
+                  android:clickable="true"
+                  android:layout_width="56.0dp"
+                  android:layout_height="56.0dp"
+                  android:layout_weight="1.0"
+                  android:layout_centerVertical="true"
+                  style="@style/SelectableFull">
+    <ImageView android:id="@id/imageView8"
+               android:padding="8.0dp"
+               android:clickable="false"
+               android:layout_width="48.0dp"
+               android:layout_height="48.0dp"
+               android:src="@0x7f080242"
+               android:layout_centerInParent="false"
+               android:layout_centerVertical="true" />
+    <TextView android:textSize="10.0sp"
+              android:textColor="@color/accent"
+              android:gravity="center"
+              android:id="@id/toggleBadgeTextView"
+              android:background="@drawable/white_badge_background"
+              android:visibility="gone"
+              android:layout_width="20.0dp"
+              android:layout_height="20.0dp"
+              android:layout_marginTop="10.0dp"
+              android:layout_marginRight="10.0dp"
+              android:layout_toLeftOf="@id/imageView8"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:textIsSelectable="false" />
+  </RelativeLayout>
+  <ImageView android:id="@id/searchBtn"
+             android:padding="8.0dp"
+             android:clickable="true"
+             android:layout_width="48.0dp"
+             android:layout_height="48.0dp"
+             android:src="@0x7f0801cb"
+             android:layout_weight="0.0" />
+</LinearLayout>

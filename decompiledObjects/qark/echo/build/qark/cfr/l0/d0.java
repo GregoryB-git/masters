@@ -1,0 +1,32 @@
+/*
+ * Decompiled with CFR 0_124.
+ * 
+ * Could not load the following classes:
+ *  java.lang.Object
+ */
+package l0;
+
+import g0.n;
+import l0.c;
+import l0.s0;
+import x0.r;
+import x0.u;
+
+public final class d0
+implements n.a {
+    public final /* synthetic */ c.a a;
+    public final /* synthetic */ r b;
+    public final /* synthetic */ u c;
+
+    public /* synthetic */ d0(c.a a8, r r8, u u8) {
+        this.a = a8;
+        this.b = r8;
+        this.c = u8;
+    }
+
+    @Override
+    public final void invoke(Object object) {
+        s0.B1(this.a, this.b, this.c, (c)object);
+    }
+}
+

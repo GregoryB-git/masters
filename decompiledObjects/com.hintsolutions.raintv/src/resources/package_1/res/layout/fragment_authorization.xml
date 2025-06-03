@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+    <include layout="@layout/toolbar_main_activity" />
+  </com.google.android.material.appbar.AppBarLayout>
+  <ScrollView android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:fillViewport="true">
+    <LinearLayout android:gravity="center"
+                  android:orientation="vertical"
+                  android:padding="@dimen/padding"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+      <TextView android:textSize="15.0sp"
+                android:textColor="@color/color_rain_text_gray"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Войдите под своим аккаунтом или создайте нового пользователя:" />
+      <Button android:id="@id/authorization"
+              android:layout_marginTop="@dimen/vertical_spacing3"
+              android:layout_marginBottom="8.0dp"
+              android:text="Войти"
+              style="@style/Button.Pink" />
+      <Button android:id="@id/registration"
+              android:layout_marginBottom="@dimen/vertical_spacing3"
+              android:text="Регистрация"
+              style="@style/Button.Pink" />
+      <TextView android:textSize="14.0sp"
+                android:textColor="@color/color_rain_text_black"
+                android:gravity="center"
+                android:id="@id/app_version2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25.0dp" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

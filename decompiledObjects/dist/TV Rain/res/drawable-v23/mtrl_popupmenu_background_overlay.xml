@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape>
+      <solid android:color="?com.hintsolutions.raintv:colorSurface" />
+      <corners android:bottomRightRadius="4.0dip" android:topRightRadius="4.0dip" android:topLeftRadius="4.0dip" android:bottomLeftRadius="4.0dip" />
+    </shape>
+  </item>
+  <item>
+    <shape>
+      <solid android:color="@com.hintsolutions.raintv:color/mtrl_popupmenu_overlay_color" />
+      <corners android:bottomRightRadius="4.0dip" android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" />
+      <padding android:top="8.0dip" android:bottom="8.0dip" />
+    </shape>
+  </item>
+</layer-list>

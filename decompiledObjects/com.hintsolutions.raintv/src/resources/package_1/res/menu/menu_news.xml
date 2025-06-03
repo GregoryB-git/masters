@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <item android:id="@id/media_route_menu_item"
+        android:title="@string/google_cast"
+        raintv:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        raintv:showAsAction="always" />
+  <item android:id="@id/actionShareNews"
+        android:title="@string/share"
+        raintv:showAsAction="always" />
+  <item android:id="@id/actionFav"
+        android:title="@string/add_to_fav"
+        raintv:showAsAction="always" />
+</menu>

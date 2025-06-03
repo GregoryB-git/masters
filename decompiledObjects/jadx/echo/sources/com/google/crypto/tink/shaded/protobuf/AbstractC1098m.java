@@ -1,0 +1,10 @@
+package com.google.crypto.tink.shaded.protobuf;
+
+import com.google.crypto.tink.shaded.protobuf.AbstractC1110z;
+import java.util.RandomAccess;
+
+/* renamed from: com.google.crypto.tink.shaded.protobuf.m, reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public abstract class AbstractC1098m extends AbstractC1088c implements AbstractC1110z.d, RandomAccess, Y {
+    public abstract void d(double d7);
+}

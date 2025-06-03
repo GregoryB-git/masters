@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_below="@com.hintsolutions.raintv:id/seek_bar_indicators" android:layout_width="fill_parent" android:layout_marginTop="@com.hintsolutions.raintv:dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons" />

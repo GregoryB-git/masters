@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="@com.hintsolutions.raintv:dimen/vertical_spacing3" android:layout_width="fill_parent" android:orientation="vertical" />

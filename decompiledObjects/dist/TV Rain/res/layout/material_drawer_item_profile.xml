@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@com.hintsolutions.raintv:dimen/material_drawer_padding" android:paddingStart="@com.hintsolutions.raintv:dimen/material_drawer_padding" android:gravity="start|center" android:paddingRight="0.0dip" android:paddingEnd="0.0dip" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" />

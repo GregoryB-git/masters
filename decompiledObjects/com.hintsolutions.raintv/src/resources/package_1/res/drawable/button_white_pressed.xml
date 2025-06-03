@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape android:shape="rectangle">
+      <corners android:radius="@dimen/button_radius" />
+      <solid android:color="@color/button_white_pressed" />
+      <padding android:left="@dimen/button_padding"
+               android:top="0.0dp"
+               android:right="@dimen/button_padding"
+               android:bottom="0.0dp" />
+    </shape>
+  </item>
+</layer-list>

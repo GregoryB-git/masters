@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAllCaps="true" android:layout_marginStart="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textColor="@com.hintsolutions.raintv:color/color_rain_pink" android:layout_marginLeft="4.0dip" android:text="Сейчас в эфире" android:textStyle="bold" />

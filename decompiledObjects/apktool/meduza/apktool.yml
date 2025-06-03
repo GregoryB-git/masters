@@ -1,0 +1,219 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: meduza.apk
+compressionType: false
+doNotCompress:
+- arsc
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.credentials_credentials-play-services-auth.version
+- META-INF/androidx.credentials_credentials.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.datastore_datastore-preferences.version
+- META-INF/androidx.datastore_datastore.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.emoji2_emoji2-views-helper.version
+- META-INF/androidx.emoji2_emoji2.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media2_media2-common.version
+- META-INF/androidx.media2_media2-session.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.window.extensions.core_core.version
+- META-INF/androidx.window_window-java.version
+- META-INF/androidx.window_window.version
+- META-INF/androidx.work_work-runtime.version
+- version
+- b1
+- l0
+- p0
+- v0
+- b0
+- m
+- prof
+- profm
+- json
+- png
+- assets/flutter_assets/assets/icons/3.5x/banner_bg.png
+- assets/flutter_assets/assets/icons/3.5x/banner_thanks.png
+- assets/flutter_assets/assets/icons/3.5x/bg_footnote-black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_footnote-light.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_01.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_01_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_02.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_02_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_03.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_03_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_04.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_04_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_05.png
+- assets/flutter_assets/assets/icons/3.5x/bg_heaven_05_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_01.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_01_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_02.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_02_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_03.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_03_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_04.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_04_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_05.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_05_black.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_AD_05.png
+- assets/flutter_assets/assets/icons/3.5x/bg_hell_AD_05_black.png
+- assets/flutter_assets/assets/icons/3.5x/bottom_splash.png
+- assets/flutter_assets/assets/icons/3.5x/icon_15back-black.png
+- assets/flutter_assets/assets/icons/3.5x/icon_15back-light.png
+- assets/flutter_assets/assets/icons/3.5x/icon_15forward-black.png
+- assets/flutter_assets/assets/icons/3.5x/icon_15forward-light.png
+- assets/flutter_assets/assets/icons/3.5x/icon_UPS.png
+- assets/flutter_assets/assets/icons/3.5x/icon_collapse.png
+- assets/flutter_assets/assets/icons/3.5x/icon_footnote_arrow.png
+- assets/flutter_assets/assets/icons/3.5x/icon_forward-black.png
+- assets/flutter_assets/assets/icons/3.5x/icon_forward-light.png
+- assets/flutter_assets/assets/icons/3.5x/icon_live-gold.png
+- assets/flutter_assets/assets/icons/3.5x/icon_live-red.png
+- assets/flutter_assets/assets/icons/3.5x/icon_live-white.png
+- assets/flutter_assets/assets/icons/3.5x/icon_ok-black.png
+- assets/flutter_assets/assets/icons/3.5x/icon_ok-light.png
+- assets/flutter_assets/assets/icons/3.5x/icon_profile.png
+- assets/flutter_assets/assets/icons/3.5x/icon_search.png
+- assets/flutter_assets/assets/icons/3.5x/logo.png
+- assets/flutter_assets/assets/icons/3.5x/story_logo-black.png
+- assets/flutter_assets/assets/icons/3.5x/story_logo-light.png
+- assets/flutter_assets/assets/icons/3.5x/top_splash.png
+- webp
+- assets/flutter_assets/packages/tweet_ui/assets/1.5x/tw__ic_gif_badge.png
+- assets/flutter_assets/packages/tweet_ui/assets/1.5x/tw__ic_logo_blue.png
+- assets/flutter_assets/packages/tweet_ui/assets/1.5x/tw__ic_retweet_light.png
+- assets/flutter_assets/packages/tweet_ui/assets/1.5x/tw__ic_tweet_verified.png
+- assets/flutter_assets/packages/tweet_ui/assets/2.0x/tw__ic_gif_badge.png
+- assets/flutter_assets/packages/tweet_ui/assets/2.0x/tw__ic_logo_blue.png
+- assets/flutter_assets/packages/tweet_ui/assets/2.0x/tw__ic_retweet_light.png
+- assets/flutter_assets/packages/tweet_ui/assets/2.0x/tw__ic_tweet_verified.png
+- assets/flutter_assets/packages/tweet_ui/assets/3.0x/tw__ic_gif_badge.png
+- assets/flutter_assets/packages/tweet_ui/assets/3.0x/tw__ic_logo_blue.png
+- assets/flutter_assets/packages/tweet_ui/assets/3.0x/tw__ic_retweet_light.png
+- assets/flutter_assets/packages/tweet_ui/assets/3.0x/tw__ic_tweet_verified.png
+isFrameworkApk: false
+packageInfo: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  androidsupportmultidexversion.txt: '0'
+  client_analytics.proto: '8'
+  core-common.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-auth-interop.properties: '8'
+  firebase-auth.properties: '8'
+  firebase-database-collection.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  googleid.properties: '8'
+  integrity.properties: '8'
+  kotlin-tooling-metadata.json: '8'
+  messaging_event.proto: '8'
+  messaging_event_extension.proto: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-fido.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  protolite-well-known-types.properties: '8'
+  recaptcha.properties: '8'
+  review.properties: '8'
+  stamp-cert-sha256: '8'
+  go/Seq.java: '8'
+  go/Universe.java: '8'
+  go/error.java: '8'
+  google/apphosting/datastore/testing/datastore_test_trace.proto: '8'
+  google/firebase/firestore/proto/bundle.proto: '8'
+  google/firebase/firestore/proto/maybe_document.proto: '8'
+  google/firebase/firestore/proto/mutation.proto: '8'
+  google/firebase/firestore/proto/target.proto: '8'
+  google/firestore/admin/index.proto: '8'
+  google/firestore/v1/aggregation_result.proto: '8'
+  google/firestore/v1/bloom_filter.proto: '8'
+  google/firestore/v1/common.proto: '8'
+  google/firestore/v1/document.proto: '8'
+  google/firestore/v1/firestore.proto: '8'
+  google/firestore/v1/query.proto: '8'
+  google/firestore/v1/write.proto: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  mobileproxy/LogWriter.java: '8'
+  mobileproxy/Mobileproxy.java: '8'
+  mobileproxy/Proxy.java: '8'
+  mobileproxy/StreamDialer.java: '8'
+  mobileproxy/StringList.java: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0-dirty
+versionInfo:
+  versionCode: '558'
+  versionName: 1.3.36

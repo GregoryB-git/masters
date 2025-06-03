@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <solid android:color="@com.hintsolutions.raintv:color/tw__light_gray" />
+  <corners android:topLeftRadius="@com.hintsolutions.raintv:dimen/tw__login_btn_radius" android:bottomLeftRadius="@com.hintsolutions.raintv:dimen/tw__login_btn_radius" android:bottomRightRadius="@com.hintsolutions.raintv:dimen/tw__login_btn_radius" android:topRightRadius="@com.hintsolutions.raintv:dimen/tw__login_btn_radius" />
+</shape>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <include android:id="@id/toolbar"
+           layout="@layout/toolbar" />
+  <ScrollView android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+      <TextView android:textColor="@color/black"
+                android:id="@id/textView20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:text="@string/gift_description" />
+      <TextView android:textSize="16.0sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@id/textView21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:layout_marginRight="@dimen/default_padding"
+                android:text="@string/gift_your_link"
+                android:fontFamily="sans-serif-medium" />
+      <TextView android:textSize="16.0sp"
+                android:gravity="center"
+                android:id="@id/linkTextView"
+                android:background="@color/color_rain_gray"
+                android:padding="4.0dp"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding"
+                android:singleLine="false"
+                android:textIsSelectable="true" />
+      <TextView android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@id/textView22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:layout_marginRight="@dimen/default_padding"
+                android:text="@string/gift_share" />
+      <Button android:id="@id/share"
+              android:layout_margin="@dimen/default_padding"
+              android:text="@string/share"
+              style="@style/Button.Pink" />
+      <LinearLayout android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:layout_marginRight="@dimen/default_padding"
+                    android:layout_marginBottom="@dimen/default_padding">
+        <TextView android:id="@id/textView23"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/gift_friends_registered"
+                  android:layout_weight="1.0" />
+        <TextView android:id="@id/registeredAmount"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/half_margin"
+                  android:text="0" />
+      </LinearLayout>
+      <LinearLayout android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:layout_marginRight="@dimen/default_padding"
+                    android:layout_marginBottom="@dimen/default_padding">
+        <TextView android:id="@id/textView25"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/gift_friends_bought"
+                  android:layout_weight="1.0" />
+        <TextView android:id="@id/boughtAmount"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/half_margin"
+                  android:text="0" />
+      </LinearLayout>
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@online.echofm.app:drawable/btn_checkbox_checked_mtrl">
+  <target android:animation="@online.echofm.app:anim/btn_checkbox_to_unchecked_icon_null_animation" android:name="icon_null" />
+  <target android:name="check_path_merged" android:animation="@online.echofm.app:anim/btn_checkbox_to_unchecked_check_path_merged_animation" />
+  <target android:animation="@online.echofm.app:anim/btn_checkbox_to_unchecked_box_inner_merged_animation" android:name="box_inner_merged" />
+</animated-vector>

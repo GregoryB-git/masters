@@ -1,0 +1,9 @@
+package t0;
+
+public abstract class w$a {}
+
+/* Location:
+ * Qualified Name:     t0.w.a
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

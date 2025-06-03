@@ -1,0 +1,13 @@
+package g6;
+
+import V5.c;
+
+public abstract interface s
+  extends c
+{}
+
+/* Location:
+ * Qualified Name:     g6.s
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

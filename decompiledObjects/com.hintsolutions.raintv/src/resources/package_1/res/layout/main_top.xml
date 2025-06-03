@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              style="@style/Selectable" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <RelativeLayout android:orientation="vertical"
+                  android:id="@id/image_layout"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+    <ImageView android:id="@id/image"
+               android:layout_width="fill_parent"
+               android:layout_height="@dimen/image_height2"
+               android:layout_marginBottom="@dimen/vertical_spacing"
+               android:src="@drawable/ph_news"
+               android:scaleType="centerCrop"
+               android:adjustViewBounds="true" />
+    <ImageView android:id="@id/addToFavorites"
+               android:background="?attr/selectableItemBackgroundBorderless"
+               android:paddingLeft="16.0dp"
+               android:paddingTop="8.0dp"
+               android:paddingRight="16.0dp"
+               android:paddingBottom="8.0dp"
+               android:clickable="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentRight="true"
+               raintv:srcCompat="@0x7f080057" />
+  </RelativeLayout>
+  <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/content_padding"
+                android:layout_marginRight="@dimen/content_padding">
+    <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="22.0sp"
+                          android:textColor="@color/color_new_text_black"
+                          android:id="@id/name"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginBottom="@dimen/list_element_vertical_padding"
+                          android:text="@string/ph_news_name"
+                          android:layout_below="@id/image"
+                          android:lineSpacingExtra="8.0sp"
+                          raintv:font_face="@string/font_roboto_medium" />
+    <LinearLayout android:orientation="vertical"
+                  android:id="@id/adLayout"
+                  android:visibility="gone"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/list_element_vertical_padding"
+                  android:minHeight="50.0dp" />
+    <View android:id="@id/elementDivider"
+          android:background="@drawable/news_divider"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>

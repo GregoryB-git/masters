@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_focused="true" android:color="?com.hintsolutions.raintv:colorPrimary" />
+  <item android:alpha="0.9" android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_hovered="true" />
+  <item android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_enabled="false" android:alpha="0.1" />
+  <item android:color="?com.hintsolutions.raintv:colorOnSurface" android:alpha="0.4" />
+</selector>

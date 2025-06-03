@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__bg_media_badge" />
+  <item android:right="@com.hintsolutions.raintv:dimen/tw__badge_padding" android:top="@com.hintsolutions.raintv:dimen/tw__badge_padding" android:left="@com.hintsolutions.raintv:dimen/tw__badge_padding" android:bottom="@com.hintsolutions.raintv:dimen/tw__badge_padding" />
+</layer-list>

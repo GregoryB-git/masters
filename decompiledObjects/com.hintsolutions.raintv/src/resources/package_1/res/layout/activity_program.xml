@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  <com.google.android.material.appbar.AppBarLayout android:background="@color/color_new_toolbar_background"
+                        android:fitsSystemWindows="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+    <include android:id="@id/toolbar"
+             layout="@layout/toolbar_new" />
+    <include layout="@layout/subscription" />
+  </com.google.android.material.appbar.AppBarLayout>
+  <FrameLayout android:id="@id/container"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent" />
+</LinearLayout>

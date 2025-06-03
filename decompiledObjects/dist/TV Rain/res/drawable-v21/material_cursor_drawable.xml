@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <padding android:bottom="@com.hintsolutions.raintv:dimen/material_cursor_inset_bottom" android:top="@com.hintsolutions.raintv:dimen/material_cursor_inset_top" />
+  <size android:width="@com.hintsolutions.raintv:dimen/material_cursor_width" />
+  <solid android:color="?com.hintsolutions.raintv:colorPrimary" />
+</shape>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_focused="false"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@0x7f0802dc" />
+  <item android:state_focused="false"
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@0x7f0802d8" />
+  <item android:state_focused="true"
+        android:state_selected="false"
+        android:state_pressed="false"
+        android:drawable="@0x7f0802dd" />
+  <item android:state_focused="true"
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:drawable="@0x7f0802d9" />
+  <item android:state_focused="false"
+        android:state_selected="false"
+        android:state_pressed="true"
+        android:drawable="@0x7f0802de" />
+  <item android:state_focused="false"
+        android:state_selected="true"
+        android:state_pressed="true"
+        android:drawable="@0x7f0802da" />
+  <item android:state_focused="true"
+        android:state_selected="false"
+        android:state_pressed="true"
+        android:drawable="@0x7f0802de" />
+  <item android:state_focused="true"
+        android:state_selected="true"
+        android:state_pressed="true"
+        android:drawable="@0x7f0802da" />
+</selector>

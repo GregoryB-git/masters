@@ -1,0 +1,58 @@
+package io.flutter.plugins.firebase.firestore;
+
+import java.util.List;
+
+public abstract interface GeneratedAndroidFirebaseFirestore$FirebaseFirestoreHostApi
+{
+  public abstract void aggregateQuery(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString, GeneratedAndroidFirebaseFirestore.PigeonQueryParameters paramPigeonQueryParameters, GeneratedAndroidFirebaseFirestore.AggregateSource paramAggregateSource, List<GeneratedAndroidFirebaseFirestore.AggregateQuery> paramList, Boolean paramBoolean, GeneratedAndroidFirebaseFirestore.Result<List<GeneratedAndroidFirebaseFirestore.AggregateQueryResponse>> paramResult);
+  
+  public abstract void clearPersistence(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void disableNetwork(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void documentReferenceDelete(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.DocumentReferenceRequest paramDocumentReferenceRequest, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void documentReferenceGet(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.DocumentReferenceRequest paramDocumentReferenceRequest, GeneratedAndroidFirebaseFirestore.Result<GeneratedAndroidFirebaseFirestore.PigeonDocumentSnapshot> paramResult);
+  
+  public abstract void documentReferenceSet(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.DocumentReferenceRequest paramDocumentReferenceRequest, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void documentReferenceSnapshot(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.DocumentReferenceRequest paramDocumentReferenceRequest, Boolean paramBoolean, GeneratedAndroidFirebaseFirestore.ListenSource paramListenSource, GeneratedAndroidFirebaseFirestore.Result<String> paramResult);
+  
+  public abstract void documentReferenceUpdate(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.DocumentReferenceRequest paramDocumentReferenceRequest, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void enableNetwork(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void loadBundle(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, byte[] paramArrayOfByte, GeneratedAndroidFirebaseFirestore.Result<String> paramResult);
+  
+  public abstract void namedQueryGet(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString, GeneratedAndroidFirebaseFirestore.PigeonGetOptions paramPigeonGetOptions, GeneratedAndroidFirebaseFirestore.Result<GeneratedAndroidFirebaseFirestore.PigeonQuerySnapshot> paramResult);
+  
+  public abstract void persistenceCacheIndexManagerRequest(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.PersistenceCacheIndexManagerRequest paramPersistenceCacheIndexManagerRequest, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void queryGet(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString, Boolean paramBoolean, GeneratedAndroidFirebaseFirestore.PigeonQueryParameters paramPigeonQueryParameters, GeneratedAndroidFirebaseFirestore.PigeonGetOptions paramPigeonGetOptions, GeneratedAndroidFirebaseFirestore.Result<GeneratedAndroidFirebaseFirestore.PigeonQuerySnapshot> paramResult);
+  
+  public abstract void querySnapshot(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString, Boolean paramBoolean1, GeneratedAndroidFirebaseFirestore.PigeonQueryParameters paramPigeonQueryParameters, GeneratedAndroidFirebaseFirestore.PigeonGetOptions paramPigeonGetOptions, Boolean paramBoolean2, GeneratedAndroidFirebaseFirestore.ListenSource paramListenSource, GeneratedAndroidFirebaseFirestore.Result<String> paramResult);
+  
+  public abstract void setIndexConfiguration(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void setLoggingEnabled(Boolean paramBoolean, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void snapshotsInSyncSetup(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<String> paramResult);
+  
+  public abstract void terminate(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void transactionCreate(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, Long paramLong1, Long paramLong2, GeneratedAndroidFirebaseFirestore.Result<String> paramResult);
+  
+  public abstract void transactionGet(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, String paramString1, String paramString2, GeneratedAndroidFirebaseFirestore.Result<GeneratedAndroidFirebaseFirestore.PigeonDocumentSnapshot> paramResult);
+  
+  public abstract void transactionStoreResult(String paramString, GeneratedAndroidFirebaseFirestore.PigeonTransactionResult paramPigeonTransactionResult, List<GeneratedAndroidFirebaseFirestore.PigeonTransactionCommand> paramList, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void waitForPendingWrites(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+  
+  public abstract void writeBatchCommit(GeneratedAndroidFirebaseFirestore.FirestorePigeonFirebaseApp paramFirestorePigeonFirebaseApp, List<GeneratedAndroidFirebaseFirestore.PigeonTransactionCommand> paramList, GeneratedAndroidFirebaseFirestore.Result<Void> paramResult);
+}
+
+/* Location:
+ * Qualified Name:     io.flutter.plugins.firebase.firestore.GeneratedAndroidFirebaseFirestore.FirebaseFirestoreHostApi
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

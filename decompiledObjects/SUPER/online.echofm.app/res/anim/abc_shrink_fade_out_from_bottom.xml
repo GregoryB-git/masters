@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+  <scale android:duration="@online.echofm.app:integer/abc_config_activityDefaultDur" android:fromYScale="1.0" android:toYScale="0.9" android:interpolator="@anim/decelerate_interpolator" android:pivotY="100.0%" android:toXScale="0.9" android:fromXScale="1.0" android:pivotX="50.0%" />
+  <alpha android:interpolator="@anim/decelerate_interpolator" android:duration="@online.echofm.app:integer/abc_config_activityShortDur" android:toAlpha="0.0" android:fromAlpha="1.0" />
+</set>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@com.hintsolutions.raintv:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation" android:fromId="@com.hintsolutions.raintv:id/checked" android:toId="@com.hintsolutions.raintv:id/unchecked" />

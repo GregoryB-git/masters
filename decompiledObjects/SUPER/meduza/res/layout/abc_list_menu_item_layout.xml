@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<androidx.appcompat.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="?io.meduza.meduza:listPreferredItemHeightSmall" android:layout_width="fill_parent">
+  <RelativeLayout android:layout_marginLeft="?io.meduza.meduza:listPreferredItemPaddingLeft" android:layout_marginRight="?io.meduza.meduza:listPreferredItemPaddingRight" android:layout_weight="1.0" android:duplicateParentState="true" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" />
+</androidx.appcompat.view.menu.ListMenuItemView>

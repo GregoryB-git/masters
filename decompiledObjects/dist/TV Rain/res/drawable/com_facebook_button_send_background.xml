@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_enabled="false" android:state_focused="false">
+    <shape android:shape="rectangle">
+      <corners android:radius="@com.hintsolutions.raintv:dimen/com_facebook_button_corner_radius" />
+      <solid android:color="@com.hintsolutions.raintv:color/com_facebook_button_background_color_disabled" />
+    </shape>
+  </item>
+  <item android:state_pressed="true">
+    <shape android:shape="rectangle">
+      <corners android:radius="2.0dip" />
+      <solid android:color="@com.hintsolutions.raintv:color/com_facebook_button_send_background_color_pressed" />
+    </shape>
+  </item>
+  <item>
+    <shape android:shape="rectangle">
+      <corners android:radius="2.0dip" />
+      <solid android:color="@com.hintsolutions.raintv:color/com_facebook_button_send_background_color" />
+    </shape>
+  </item>
+</selector>

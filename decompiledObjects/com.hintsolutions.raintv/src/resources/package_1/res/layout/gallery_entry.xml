@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:paddingRight="16.0dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <ImageView android:id="@id/image"
+             android:layout_width="320.0dp"
+             android:layout_height="200.0dp"
+             android:layout_weight="1.0"
+             raintv:srcCompat="@0x7f080006" />
+  <TextView android:textSize="12.0sp"
+            android:textStyle="italic"
+            android:textColor="#9d9d9d"
+            android:id="@id/author"
+            android:layout_width="320.0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dp"
+            android:text="@string/ph_gallery_author"
+            android:lines="1"
+            android:singleLine="true"
+            android:layout_weight="0.0" />
+</LinearLayout>

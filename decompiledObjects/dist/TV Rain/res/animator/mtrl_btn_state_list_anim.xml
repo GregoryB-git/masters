@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_enabled="true" android:state_pressed="true">
+    <set>
+      <objectAnimator android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_pressed_z" android:duration="@com.hintsolutions.raintv:integer/mtrl_btn_anim_duration_ms" android:valueType="floatType" android:propertyName="translationZ" />
+      <objectAnimator android:propertyName="elevation" android:duration="0" android:valueType="floatType" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_elevation" />
+    </set>
+  </item>
+  <item android:state_enabled="true" android:state_hovered="true">
+    <set>
+      <objectAnimator android:duration="@com.hintsolutions.raintv:integer/mtrl_btn_anim_duration_ms" android:valueType="floatType" android:propertyName="translationZ" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_hovered_z" />
+      <objectAnimator android:propertyName="elevation" android:valueType="floatType" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_elevation" android:duration="0" />
+    </set>
+  </item>
+  <item android:state_enabled="true" android:state_focused="true">
+    <set>
+      <objectAnimator android:duration="@com.hintsolutions.raintv:integer/mtrl_btn_anim_duration_ms" android:propertyName="translationZ" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_focused_z" android:valueType="floatType" />
+      <objectAnimator android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_elevation" android:valueType="floatType" android:duration="0" android:propertyName="elevation" />
+    </set>
+  </item>
+  <item android:state_enabled="true">
+    <set>
+      <objectAnimator android:duration="@com.hintsolutions.raintv:integer/mtrl_btn_anim_duration_ms" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@com.hintsolutions.raintv:integer/mtrl_btn_anim_delay_ms" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_z" />
+      <objectAnimator android:valueType="floatType" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_elevation" android:propertyName="elevation" android:duration="0" />
+    </set>
+  </item>
+  <item>
+    <set>
+      <objectAnimator android:duration="0" android:valueType="floatType" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_disabled_z" android:propertyName="translationZ" />
+      <objectAnimator android:duration="0" android:valueType="floatType" android:propertyName="elevation" android:valueTo="@com.hintsolutions.raintv:dimen/mtrl_btn_disabled_elevation" />
+    </set>
+  </item>
+</selector>

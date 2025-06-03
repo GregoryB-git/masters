@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                        android:id="@id/toolbar"
+                        android:background="?attr/colorPrimary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/toolbar_height"
+                        raintv:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+  <RelativeLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout"
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent">
+      <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView"
+                            android:scrollbars="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:id="@id/emptyView"
+             layout="@layout/view_empty" />
+    <include android:id="@id/progressDialog"
+             layout="@layout/dialog_progress_light" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/recordVideoButton"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginRight="@dimen/default_padding"
+                          android:layout_marginBottom="@dimen/default_padding_v21"
+                          android:src="@0x7f0800f5"
+                          android:layout_alignParentRight="true"
+                          android:layout_alignParentBottom="true"
+                          android:layout_marginEnd="@dimen/default_padding" />
+  </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueFrom="0.0" android:interpolator="@anim/linear_interpolator" android:valueTo="0.0" android:duration="50" android:propertyName="alpha" />
+    <objectAnimator android:interpolator="@anim/linear_interpolator" android:valueFrom="0.0" android:valueTo="1.0" android:propertyName="alpha" android:duration="50" />
+  </set>
+  <objectAnimator android:interpolator="@io.meduza.meduza:anim/fragment_fast_out_extra_slow_in" android:duration="300" android:propertyName="scaleX" android:valueFrom="0.9" android:valueTo="1.0" />
+  <objectAnimator android:valueTo="1.0" android:valueFrom="0.9" android:duration="300" android:interpolator="@io.meduza.meduza:anim/fragment_fast_out_extra_slow_in" android:propertyName="scaleY" />
+</set>

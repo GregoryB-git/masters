@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/vertical_spacing5" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/vertical_spacing3"
+                android:layout_weight="1.0">
+    <TextView android:textSize="15.0sp"
+              android:textColor="@color/color_rain_text_black"
+              android:gravity="center_vertical"
+              android:id="@id/name"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginLeft="@dimen/horizontal_margin"
+              android:layout_marginRight="@dimen/horizontal_margin"
+              android:text="@string/ph_program_name"
+              android:textAllCaps="true" />
+  </LinearLayout>
+  <ImageView android:id="@id/add_to_favorites"
+             android:background="?attr/selectableItemBackgroundBorderless"
+             android:padding="8.0dp"
+             android:clickable="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.0"
+             raintv:srcCompat="@0x7f08023c" />
+</LinearLayout>

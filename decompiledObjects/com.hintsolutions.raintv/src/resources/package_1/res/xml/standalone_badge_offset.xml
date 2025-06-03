@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<badge raintv:horizontalOffset="10.0dp"
+       raintv:maxCharacterCount="2"
+       raintv:verticalOffset="5.0dp" xmlns:raintv="http://schemas.android.com/apk/res-auto" />

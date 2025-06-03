@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@online.echofm.app:color/androidx_core_ripple_material_light">
+  <inset android:insetLeft="@online.echofm.app:dimen/compat_button_inset_horizontal_material" android:insetRight="@online.echofm.app:dimen/compat_button_inset_horizontal_material" android:insetBottom="@online.echofm.app:dimen/compat_button_inset_vertical_material" android:insetTop="@online.echofm.app:dimen/compat_button_inset_vertical_material">
+    <shape android:shape="rectangle">
+      <corners android:radius="@online.echofm.app:dimen/compat_control_corner_material" />
+      <solid android:color="@color/white" />
+      <padding android:left="@online.echofm.app:dimen/compat_button_padding_horizontal_material" android:bottom="@online.echofm.app:dimen/compat_button_padding_vertical_material" android:top="@online.echofm.app:dimen/compat_button_padding_vertical_material" android:right="@online.echofm.app:dimen/compat_button_padding_horizontal_material" />
+    </shape>
+  </inset>
+</ripple>

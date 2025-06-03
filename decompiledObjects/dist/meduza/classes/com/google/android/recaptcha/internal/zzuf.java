@@ -1,0 +1,232 @@
+package com.google.android.recaptcha.internal;
+
+import java.util.List;
+
+public final class zzuf
+  extends zznd
+  implements zzoj
+{
+  private static final zzuf zzb;
+  private static volatile zzoq zzd;
+  private int zze;
+  private int zzf;
+  private zznk zzg = zznd.zzB();
+  
+  static
+  {
+    Object localObject = new zzuf();
+    zzb = (zzuf)localObject;
+    zznd.zzI(zzuf.class, (zznd)localObject);
+    localObject = zzls.zzg();
+    zzpw localzzpw = zzpw.zzi;
+    zznd.zzs((zzoi)localObject, "", null, null, 490775251, localzzpw, String.class);
+    zznd.zzs(zzls.zzg(), "", null, null, 490775252, localzzpw, String.class);
+  }
+  
+  public final int zzf()
+  {
+    return zze;
+  }
+  
+  public final int zzg()
+  {
+    return zzf;
+  }
+  
+  public final Object zzh(int paramInt, Object paramObject1, Object paramObject2)
+  {
+    
+    if (paramInt != 0)
+    {
+      if (paramInt != 2)
+      {
+        if (paramInt != 3)
+        {
+          if (paramInt != 4)
+          {
+            if (paramInt != 5)
+            {
+              if (paramInt != 6) {
+                return null;
+              }
+              paramObject2 = zzd;
+              paramObject1 = paramObject2;
+              if (paramObject2 == null) {
+                try
+                {
+                  paramObject2 = zzd;
+                  paramObject1 = paramObject2;
+                  if (paramObject2 == null)
+                  {
+                    paramObject1 = new com/google/android/recaptcha/internal/zzmy;
+                    ((zzmy)paramObject1).<init>(zzb);
+                    zzd = (zzoq)paramObject1;
+                  }
+                }
+                finally {}
+              }
+              return paramObject1;
+            }
+            return zzb;
+          }
+          return new zzuc(null);
+        }
+        return new zzuf();
+      }
+      return zznd.zzF(zzb, "\000\003\000\000\001\003\003\000\001\000\001\f\002\013\003\033", new Object[] { "zze", "zzf", "zzg", zzue.class });
+    }
+    return Byte.valueOf((byte)1);
+  }
+  
+  public final List zzj()
+  {
+    return zzg;
+  }
+  
+  public final int zzk()
+  {
+    int i;
+    switch (zze)
+    {
+    default: 
+      i = 0;
+      break;
+    case 41: 
+      i = 43;
+      break;
+    case 40: 
+      i = 42;
+      break;
+    case 39: 
+      i = 41;
+      break;
+    case 38: 
+      i = 40;
+      break;
+    case 37: 
+      i = 39;
+      break;
+    case 36: 
+      i = 38;
+      break;
+    case 35: 
+      i = 37;
+      break;
+    case 34: 
+      i = 36;
+      break;
+    case 33: 
+      i = 35;
+      break;
+    case 32: 
+      i = 34;
+      break;
+    case 31: 
+      i = 33;
+      break;
+    case 30: 
+      i = 32;
+      break;
+    case 29: 
+      i = 31;
+      break;
+    case 28: 
+      i = 30;
+      break;
+    case 27: 
+      i = 29;
+      break;
+    case 26: 
+      i = 28;
+      break;
+    case 25: 
+      i = 27;
+      break;
+    case 24: 
+      i = 26;
+      break;
+    case 23: 
+      i = 25;
+      break;
+    case 22: 
+      i = 24;
+      break;
+    case 21: 
+      i = 23;
+      break;
+    case 20: 
+      i = 22;
+      break;
+    case 19: 
+      i = 21;
+      break;
+    case 18: 
+      i = 20;
+      break;
+    case 17: 
+      i = 19;
+      break;
+    case 16: 
+      i = 18;
+      break;
+    case 15: 
+      i = 17;
+      break;
+    case 14: 
+      i = 16;
+      break;
+    case 13: 
+      i = 15;
+      break;
+    case 12: 
+      i = 14;
+      break;
+    case 11: 
+      i = 13;
+      break;
+    case 10: 
+      i = 12;
+      break;
+    case 9: 
+      i = 11;
+      break;
+    case 8: 
+      i = 10;
+      break;
+    case 7: 
+      i = 9;
+      break;
+    case 6: 
+      i = 8;
+      break;
+    case 5: 
+      i = 7;
+      break;
+    case 4: 
+      i = 6;
+      break;
+    case 3: 
+      i = 5;
+      break;
+    case 2: 
+      i = 4;
+      break;
+    case 1: 
+      i = 3;
+      break;
+    case 0: 
+      i = 2;
+    }
+    int j = i;
+    if (i == 0) {
+      j = 1;
+    }
+    return j;
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.recaptcha.internal.zzuf
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

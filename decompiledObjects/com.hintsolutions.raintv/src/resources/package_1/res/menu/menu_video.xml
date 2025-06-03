@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <item android:id="@id/media_route_menu_item"
+        android:title="@string/google_cast"
+        raintv:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        raintv:showAsAction="always" />
+  <item android:icon="@0x7f0801e5"
+        android:id="@id/audioItem"
+        android:title="@string/listen"
+        raintv:showAsAction="ifRoom" />
+  <item android:id="@id/qualityItem"
+        android:title="@string/quality"
+        raintv:showAsAction="ifRoom">
+    <menu>
+      <item android:id="@id/autoItem"
+            android:title="@string/quality_auto" />
+      <item android:id="@id/highItem"
+            android:title="@string/quality_high" />
+      <item android:id="@id/middleItem"
+            android:title="@string/quality_medium" />
+      <item android:id="@id/lowItem"
+            android:title="@string/quality_low" />
+    </menu>
+  </item>
+</menu>

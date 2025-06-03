@@ -1,0 +1,24 @@
+// 
+// Decompiled by Procyon v1.0-SNAPSHOT
+// 
+
+package com.google.android.gms.internal.measurement;
+
+import A2.n;
+
+public final class j1 extends a
+{
+    public final /* synthetic */ boolean s;
+    public final /* synthetic */ J0 t;
+    
+    public j1(final J0 t, final boolean s) {
+        this.t = t;
+        this.s = s;
+        t.super();
+    }
+    
+    @Override
+    public final void a() {
+        ((x0)n.i(J0.d(this.t))).setDataCollectionEnabled(this.s);
+    }
+}

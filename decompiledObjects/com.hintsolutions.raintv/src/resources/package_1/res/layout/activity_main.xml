@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout android:layout_width="fill_parent"
+             android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <RelativeLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+    <FrameLayout android:id="@id/content_frame"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_marginBottom="-5.0dp"
+                 android:layout_above="@id/cast_mini_controller" />
+    <FrameLayout android:id="@id/progress_frame"
+                 android:visibility="gone"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+      <ProgressBar android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+    </FrameLayout>
+    <fragment android:id="@id/cast_mini_controller"
+              android:visibility="gone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              raintv:castShowImageThumbnail="true"
+              raintv:castSubtitleTextAppearance="@style/CastMiniController.Subtitle"
+              raintv:castTitleTextAppearance="@style/CastMiniController.Title"
+              class="tvrain.cast.CustomMiniControllerFragment" />
+  </RelativeLayout>
+  <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|end"
+                        android:id="@id/live_floating"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20.0dp"
+                        android:layout_marginBottom="20.0dp"
+                        android:scaleType="center"
+                        raintv:background="@android:color/transparent"
+                        raintv:backgroundTint="@android:color/transparent"
+                        raintv:elevation="0.0dp"
+                        raintv:fabSize="normal"
+                        raintv:maxImageSize="56.0dp"
+                        raintv:srcCompat="@0x7f0801f4"
+                        style="?android:attr/borderlessButtonStyle" />
+</FrameLayout>

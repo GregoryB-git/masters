@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueTo="0.9" android:valueType="floatType" android:duration="183" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:valueFrom="1.0" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@online.echofm.app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:valueType="floatType" android:valueFrom="0.9" android:valueTo="0.5" android:propertyName="scaleX" android:duration="16" />
+    <objectAnimator android:valueFrom="0.5" android:valueTo="1.0" android:valueType="floatType" android:interpolator="@online.echofm.app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:duration="300" android:propertyName="scaleX" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueTo="0.9" android:valueType="floatType" android:duration="183" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:valueFrom="1.0" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@online.echofm.app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:propertyName="scaleY" android:valueFrom="0.9" android:duration="16" android:valueTo="0.5" android:valueType="floatType" />
+    <objectAnimator android:interpolator="@online.echofm.app:interpolator/btn_radio_to_off_mtrl_animation_interpolator_0" android:valueType="floatType" android:propertyName="scaleY" android:valueFrom="0.5" android:duration="300" android:valueTo="1.0" />
+  </set>
+</set>

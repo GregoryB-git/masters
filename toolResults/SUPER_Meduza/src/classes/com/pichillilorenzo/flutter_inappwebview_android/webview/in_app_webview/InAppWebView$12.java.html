@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Source - classes/com/pichillilorenzo/flutter_inappwebview_android/webview/in_app_webview/InAppWebView$12.java</title>
+        <link rel="stylesheet" href="../../../../../../../css/androidstudio.css">
+        <link rel="stylesheet" href="../../../../../../../css/style.css">
+    </head>
+
+    <body>
+        <div>
+            <div class="line_numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br></div>
+            <div class="code">
+                <pre><code><code id="code-line-1"><span class="line_body">package com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview;</span></code><br><code id="code-line-2"><span class="line_body"></span></code><br><code id="code-line-3"><span class="line_body">import android.view.ActionMode;</span></code><br><code id="code-line-4"><span class="line_body">import android.view.ActionMode.Callback;</span></code><br><code id="code-line-5"><span class="line_body">import android.view.MenuItem;</span></code><br><code id="code-line-6"><span class="line_body">import android.view.View;</span></code><br><code id="code-line-7"><span class="line_body">import android.view.View.OnClickListener;</span></code><br><code id="code-line-8"><span class="line_body">import com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate;</span></code><br><code id="code-line-9"><span class="line_body"></span></code><br><code id="code-line-10"><span class="line_body">class InAppWebView$12</span></code><br><code id="code-line-11">  <span class="line_body">implements View.OnClickListener</span></code><br><code id="code-line-12"><span class="line_body">{</span></code><br><code id="code-line-13">  <span class="line_body">public void onClick(View paramView)</span></code><br><code id="code-line-14">  <span class="line_body">{</span></code><br><code id="code-line-15">    <span class="line_body">this$0.hideContextMenu();</span></code><br><code id="code-line-16">    <span class="line_body">val$callback.onActionItemClicked(val$actionMode, val$menuItem);</span></code><br><code id="code-line-17">    <span class="line_body">paramView = this$0.channelDelegate;</span></code><br><code id="code-line-18">    <span class="line_body">if (paramView != null) {</span></code><br><code id="code-line-19">      <span class="line_body">paramView.onContextMenuActionItemClicked(val$itemId, val$itemTitle);</span></code><br><code id="code-line-20">    <span class="line_body">}</span></code><br><code id="code-line-21">  <span class="line_body">}</span></code><br><code id="code-line-22"><span class="line_body">}</span></code><br><code id="code-line-23"><span class="line_body"></span></code><br><code id="code-line-24"><span class="line_body">/* Location:</span></code><br><code id="code-line-25"> <span class="line_body">* Qualified Name:     com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView.12</span></code><br><code id="code-line-26"> <span class="line_body">* Java Class Version: 6 (50.0)</span></code><br><code id="code-line-27"> <span class="line_body">* JD-Core Version:    0.7.1</span></code><br><code id="code-line-28"> <span class="line_body">*/</span></code><br></code></pre>
+            </div>
+        </div>
+        <script src="../../../../../../../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../../../../../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            var query_params = decodeURIComponent(window.location.search.substring(1)),
+                variables = query_params.split('&'),
+                start_line,
+                end_line,
+                criticality;
+            for (var i = 0; i < variables.length; i++) {
+                var pair = variables[i].split('=');
+                if (pair[0] == "start_line") {
+                    start_line = pair[1];
+                }
+                if (pair[0] == "end_line") {
+                    end_line = pair[1];
+                }
+                if (pair[0] == "criticality") {
+                    criticality = pair[1];
+                }
+            }
+            for (var i = start_line; i <= end_line; i++) {
+                $("#code-line-" + i).addClass("vulnerable_line " + criticality);
+            }
+        </script>
+    </body>
+
+</html>

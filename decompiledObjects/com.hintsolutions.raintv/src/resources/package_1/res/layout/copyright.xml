@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="left"
+              android:orientation="vertical"
+              android:background="@color/color_new_dark_background"
+              android:padding="@dimen/content_padding"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <ImageView android:layout_gravity="left"
+             android:id="@id/imageView12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             raintv:srcCompat="@0x7f0802e8" />
+  <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="12.0sp"
+                        android:textColor="@color/color_new_text_gray"
+                        android:gravity="left"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24.0dp"
+                        android:text="Все права защищены. Любое использование материалов допускается только с согласия редакции."
+                        android:lineSpacingExtra="4.0sp"
+                        raintv:font_face="@string/font_roboto_regular" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip" android:left="1.0dip">
+    <shape android:shape="rectangle">
+      <solid android:color="@color/transparent" />
+      <stroke android:color="#4d4284f2" android:width="4.0dip" />
+    </shape>
+  </item>
+  <item android:drawable="@io.meduza.meduza:drawable/common_google_signin_btn_text_light_normal" />
+</layer-list>

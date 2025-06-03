@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<FrameLayout android:layout_gravity="bottom"
+             android:id="@id/video_duration_layout"
+             android:background="@drawable/newslist_small_duration_bg"
+             android:layout_width="50.0dp"
+             android:layout_height="20.0dp"
+             android:layout_marginLeft="8.0dp"
+             android:layout_marginBottom="8.0dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <LinearLayout android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/newslist_small_duration_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.0"
+               raintv:srcCompat="@0x7f080289" />
+    <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="11.0sp"
+                          android:textColor="@color/color_new_text_on_pink"
+                          android:layout_gravity="center_vertical"
+                          android:id="@id/video_duration"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/ph_duration"
+                          android:layout_weight="1.0"
+                          android:lineSpacingExtra="0.0sp"
+                          raintv:font_face="@string/font_roboto_regular" />
+  </LinearLayout>
+</FrameLayout>

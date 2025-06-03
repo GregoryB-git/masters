@@ -1,0 +1,156 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.view.View
+ *  android.widget.CompoundButton
+ *  android.widget.CompoundButton$OnCheckedChangeListener
+ *  androidx.annotation.LayoutRes
+ *  androidx.appcompat.widget.SwitchCompat
+ *  java.lang.Object
+ *  java.lang.Override
+ *  java.util.List
+ */
+package com.mikepenz.materialdrawer.model;
+
+import android.view.View;
+import android.widget.CompoundButton;
+import androidx.annotation.LayoutRes;
+import androidx.appcompat.widget.SwitchCompat;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.R;
+import com.mikepenz.materialdrawer.interfaces.OnCheckedChangeListener;
+import com.mikepenz.materialdrawer.model.AbstractSwitchableDrawerItem;
+import com.mikepenz.materialdrawer.model.BaseDescribeableDrawerItem;
+import com.mikepenz.materialdrawer.model.BaseViewHolder;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import java.util.List;
+
+public abstract class AbstractSwitchableDrawerItem<Item extends AbstractSwitchableDrawerItem>
+extends BaseDescribeableDrawerItem<Item, ViewHolder> {
+    private boolean checked = false;
+    private CompoundButton.OnCheckedChangeListener checkedChangeListener = new CompoundButton.OnCheckedChangeListener(this){
+        public final AbstractSwitchableDrawerItem this$0;
+        {
+            this.this$0 = abstractSwitchableDrawerItem;
+        }
+
+        public void onCheckedChanged(CompoundButton compoundButton, boolean bl) {
+            if (this.this$0.isEnabled()) {
+                AbstractSwitchableDrawerItem.access$102(this.this$0, bl);
+                if (this.this$0.getOnCheckedChangeListener() != null) {
+                    this.this$0.getOnCheckedChangeListener().onCheckedChanged(this.this$0, compoundButton, bl);
+                }
+            } else {
+                compoundButton.setOnCheckedChangeListener(null);
+                compoundButton.setChecked(bl ^ true);
+                compoundButton.setOnCheckedChangeListener(AbstractSwitchableDrawerItem.access$300(this.this$0));
+            }
+        }
+    };
+    private OnCheckedChangeListener onCheckedChangeListener = null;
+    private boolean switchEnabled = true;
+
+    public static /* synthetic */ boolean access$100(AbstractSwitchableDrawerItem abstractSwitchableDrawerItem) {
+        return abstractSwitchableDrawerItem.checked;
+    }
+
+    public static /* synthetic */ boolean access$102(AbstractSwitchableDrawerItem abstractSwitchableDrawerItem, boolean bl) {
+        abstractSwitchableDrawerItem.checked = bl;
+        return bl;
+    }
+
+    public static /* synthetic */ CompoundButton.OnCheckedChangeListener access$300(AbstractSwitchableDrawerItem abstractSwitchableDrawerItem) {
+        return abstractSwitchableDrawerItem.checkedChangeListener;
+    }
+
+    @Override
+    public void bindView(ViewHolder viewHolder, List list) {
+        super.bindView(viewHolder, (List<Object>)list);
+        this.bindViewHelper(viewHolder);
+        viewHolder.switchView.setOnCheckedChangeListener(null);
+        viewHolder.switchView.setChecked(this.checked);
+        viewHolder.switchView.setOnCheckedChangeListener(this.checkedChangeListener);
+        viewHolder.switchView.setEnabled(this.switchEnabled);
+        this.withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener(this, viewHolder){
+            public final AbstractSwitchableDrawerItem this$0;
+            public final ViewHolder val$viewHolder;
+            {
+                this.this$0 = abstractSwitchableDrawerItem;
+                this.val$viewHolder = viewHolder;
+            }
+
+            public boolean onItemClick(View object, int n4, IDrawerItem iDrawerItem) {
+                if (!this.this$0.isSelectable()) {
+                    object = this.this$0;
+                    AbstractSwitchableDrawerItem.access$102((AbstractSwitchableDrawerItem)object, AbstractSwitchableDrawerItem.access$100((AbstractSwitchableDrawerItem)object) ^ true);
+                    ViewHolder.access$000(this.val$viewHolder).setChecked(AbstractSwitchableDrawerItem.access$100(this.this$0));
+                }
+                return false;
+            }
+        });
+        this.onPostBindView(this, viewHolder.itemView);
+    }
+
+    @Override
+    @LayoutRes
+    public int getLayoutRes() {
+        return R.layout.material_drawer_item_switch;
+    }
+
+    public OnCheckedChangeListener getOnCheckedChangeListener() {
+        return this.onCheckedChangeListener;
+    }
+
+    @Override
+    public int getType() {
+        return R.id.material_drawer_item_primary_switch;
+    }
+
+    @Override
+    public ViewHolder getViewHolder(View view) {
+        return new ViewHolder(view, null);
+    }
+
+    public boolean isChecked() {
+        return this.checked;
+    }
+
+    public boolean isSwitchEnabled() {
+        return this.switchEnabled;
+    }
+
+    public Item withCheckable(boolean bl) {
+        return (Item)((AbstractSwitchableDrawerItem)this.withSelectable(bl));
+    }
+
+    public Item withChecked(boolean bl) {
+        this.checked = bl;
+        return (Item)this;
+    }
+
+    public Item withOnCheckedChangeListener(OnCheckedChangeListener onCheckedChangeListener) {
+        this.onCheckedChangeListener = onCheckedChangeListener;
+        return (Item)this;
+    }
+
+    public Item withSwitchEnabled(boolean bl) {
+        this.switchEnabled = bl;
+        return (Item)this;
+    }
+
+    public static class ViewHolder
+    extends BaseViewHolder {
+        private SwitchCompat switchView;
+
+        private ViewHolder(View view) {
+            super(view);
+            this.switchView = (SwitchCompat)view.findViewById(R.id.material_drawer_switch);
+        }
+
+        public /* synthetic */ ViewHolder(View view, 1 var2_2) {
+            this(view);
+        }
+    }
+}
+

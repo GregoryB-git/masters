@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <solid android:color="@color/white" />
+  <corners android:topLeftRadius="@online.echofm.app:dimen/com_facebook_auth_dialog_corner_radius_oversized" android:bottomRightRadius="@online.echofm.app:dimen/com_facebook_auth_dialog_corner_radius" android:topRightRadius="@online.echofm.app:dimen/com_facebook_auth_dialog_corner_radius_oversized" android:bottomLeftRadius="@online.echofm.app:dimen/com_facebook_auth_dialog_corner_radius" />
+</shape>

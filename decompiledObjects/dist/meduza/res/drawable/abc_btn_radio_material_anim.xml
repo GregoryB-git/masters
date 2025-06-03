@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android" android:toId="@io.meduza.meduza:id/on" android:drawable="@io.meduza.meduza:drawable/btn_radio_off_to_on_mtrl_animation" android:fromId="@io.meduza.meduza:id/off" />

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center"
+              android:orientation="horizontal"
+              android:background="@drawable/btn_custom_rain_pink"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/vertical_spacing3" xmlns:android="http://schemas.android.com/apk/res/android">
+  <ImageView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@0x7f0801e5" />
+  <TextView android:textSize="20.0sp"
+            android:textColor="@color/color_rain_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:text="Слушать эфир"
+            android:textAllCaps="true" />
+</LinearLayout>

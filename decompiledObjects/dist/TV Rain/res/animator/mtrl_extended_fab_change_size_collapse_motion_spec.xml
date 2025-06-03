@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <objectAnimator android:startOffset="0" android:duration="200" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" android:propertyName="width" />
+  <objectAnimator android:startOffset="0" android:propertyName="height" android:duration="200" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" />
+  <objectAnimator android:propertyName="paddingStart" android:duration="200" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" android:startOffset="0" />
+  <objectAnimator android:startOffset="0" android:duration="200" android:propertyName="paddingEnd" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" />
+  <objectAnimator android:startOffset="16" android:interpolator="@com.hintsolutions.raintv:interpolator/mtrl_fast_out_slow_in" android:duration="33" android:propertyName="labelOpacity" />
+</set>

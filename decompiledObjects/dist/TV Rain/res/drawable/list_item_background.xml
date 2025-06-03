@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_activated="true" android:drawable="@com.hintsolutions.raintv:color/color_rain_green" />
+  <item android:drawable="@com.hintsolutions.raintv:color/color_rain_green" android:state_checked="true" />
+  <item android:state_pressed="true" android:drawable="@com.hintsolutions.raintv:color/color_rain_green" />
+  <item android:drawable="@com.hintsolutions.raintv:color/color_rain_transparent" />
+</selector>

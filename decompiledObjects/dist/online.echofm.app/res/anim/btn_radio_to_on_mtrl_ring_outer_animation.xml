@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:duration="166" android:valueType="floatType" android:propertyName="scaleX" android:valueFrom="1.0" android:valueTo="0.5" />
+    <objectAnimator android:duration="16" android:valueType="floatType" android:valueFrom="0.5" android:valueTo="0.9" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:duration="316" android:propertyName="scaleX" android:valueType="floatType" android:valueFrom="0.9" android:valueTo="1.0" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueTo="0.5" android:propertyName="scaleY" android:duration="166" android:valueFrom="1.0" android:valueType="floatType" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" />
+    <objectAnimator android:duration="16" android:propertyName="scaleY" android:valueType="floatType" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:valueTo="0.9" android:valueFrom="0.5" />
+    <objectAnimator android:valueType="floatType" android:valueTo="1.0" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:valueFrom="0.9" android:propertyName="scaleY" android:duration="316" />
+  </set>
+</set>

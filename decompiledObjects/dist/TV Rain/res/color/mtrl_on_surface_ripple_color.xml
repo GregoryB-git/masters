@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:alpha="@com.hintsolutions.raintv:dimen/mtrl_low_ripple_pressed_alpha" android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_pressed="true" />
+  <item android:alpha="@com.hintsolutions.raintv:dimen/mtrl_low_ripple_focused_alpha" android:color="?com.hintsolutions.raintv:colorOnSurface" android:state_focused="true" />
+  <item android:state_hovered="true" android:color="?com.hintsolutions.raintv:colorOnSurface" android:alpha="@com.hintsolutions.raintv:dimen/mtrl_low_ripple_hovered_alpha" />
+  <item android:color="?com.hintsolutions.raintv:colorOnSurface" android:alpha="@com.hintsolutions.raintv:dimen/mtrl_low_ripple_default_alpha" />
+</selector>

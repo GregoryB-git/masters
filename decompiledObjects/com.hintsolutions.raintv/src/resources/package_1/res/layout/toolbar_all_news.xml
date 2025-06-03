@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="?attr/colorPrimary"
+              android:layout_width="fill_parent"
+              android:layout_height="?attr/actionBarSize" xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout android:id="@id/menuToggleHolder"
+                  android:clickable="true"
+                  android:layout_width="56.0dp"
+                  android:layout_height="56.0dp"
+                  android:layout_centerVertical="true"
+                  style="@style/SelectableFull">
+    <ImageView android:id="@id/imageView8"
+               android:padding="8.0dp"
+               android:clickable="false"
+               android:layout_width="48.0dp"
+               android:layout_height="48.0dp"
+               android:src="@0x7f080242"
+               android:layout_centerInParent="true" />
+    <TextView android:textSize="10.0sp"
+              android:textColor="@color/accent"
+              android:gravity="center"
+              android:id="@id/toggleBadgeTextView"
+              android:background="@drawable/white_badge_background"
+              android:visibility="gone"
+              android:layout_width="20.0dp"
+              android:layout_height="20.0dp"
+              android:layout_marginTop="10.0dp"
+              android:layout_marginRight="10.0dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:textIsSelectable="false" />
+  </RelativeLayout>
+  <LinearLayout android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/custom_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+      <TextView android:textColor="@color/color_rain_white"
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                style="@style/Base.TextAppearance.AppCompat.Title" />
+      <LinearLayout android:orientation="horizontal"
+                    android:id="@id/live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+        <ImageView android:gravity="center_vertical"
+                   android:background="@0x7f08021f"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center_vertical"
+                        android:background="@0x7f080220"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent">
+          <RelativeLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_centerVertical="true">
+            <LinearLayout android:gravity="center"
+                          android:orientation="horizontal"
+                          android:id="@id/now"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content">
+              <ImageView android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@0x7f0801ed" />
+              <TextView android:textStyle="bold"
+                        android:textColor="@color/color_rain_pink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dp"
+                        android:text="Сейчас в эфире"
+                        android:singleLine="true"
+                        android:textAllCaps="true"
+                        android:layout_marginStart="4.0dp" />
+            </LinearLayout>
+            <TextView android:textColor="@color/color_rain_white"
+                      android:ellipsize="end"
+                      android:id="@id/current_program"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:maxWidth="200.0dp"
+                      android:text="Загрузка…"
+                      android:singleLine="true"
+                      android:layout_below="@id/now"
+                      android:textAllCaps="true" />
+          </RelativeLayout>
+        </RelativeLayout>
+      </LinearLayout>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

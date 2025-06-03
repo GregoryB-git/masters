@@ -1,0 +1,903 @@
+{
+	"version": 24,
+	"artboards": [
+		{
+			"name": "Artboard",
+			"translation": [
+				0,
+				0
+			],
+			"width": 29,
+			"height": 23,
+			"origin": [
+				0,
+				0
+			],
+			"clipContents": true,
+			"color": [
+				0.364705890417099,
+				0.364705890417099,
+				0.364705890417099,
+				1
+			],
+			"nodes": [
+				{
+					"name": "Group",
+					"translation": [
+						14.06879711151123,
+						5.4502339363098145
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"type": "node"
+				},
+				{
+					"name": "sound_1",
+					"parent": 0,
+					"translation": [
+						-9.307188987731934,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 2,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path_1",
+					"parent": 1,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								12.121212005615234
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 1,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 1.7999999999999998,
+					"cap": 1,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "sound_2",
+					"parent": 0,
+					"translation": [
+						-5.12418270111084,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 4,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path_2",
+					"parent": 4,
+					"translation": [
+						0.39215850830078125,
+						-1.0457515716552734
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								3.0065360069274902
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								10.421863555908203
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 4,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 1.7999999999999998,
+					"cap": 1,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "sound_3",
+					"parent": 0,
+					"translation": [
+						-0.02614307403564453,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 6,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path_3",
+					"parent": 7,
+					"translation": [
+						0.39215850830078125,
+						-1.0457515716552734
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								4.313726902008057
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								9.114665985107422
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 7,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 1.7999999999999998,
+					"cap": 1,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "sound_4",
+					"parent": 0,
+					"translation": [
+						4.810458183288574,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 3,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path_4",
+					"parent": 10,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								12.121212005615234
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 10,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 1.7999999999999998,
+					"cap": 1,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "sound_5",
+					"parent": 0,
+					"translation": [
+						9.64705753326416,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 5,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path_5",
+					"parent": 13,
+					"translation": [
+						0.39215850830078125,
+						-1.0457515716552734
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								3.0065360069274902
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								10.421863555908203
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 13,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 1.7999999999999998,
+					"cap": 1,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				}
+			],
+			"animations": [
+				{
+					"name": "wave",
+					"fps": 60,
+					"duration": 2,
+					"isLooping": true,
+					"keyed": [
+						{
+							"component": 2,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0,
+											0,
+											12.374378204345703,
+											0
+										]
+									},
+									{
+										"time": 0.55,
+										"interpolatorType": 2,
+										"cubicX1": 0.8279569892473119,
+										"cubicY1": 0,
+										"cubicX2": 0.21505376344086022,
+										"cubicY2": 1,
+										"value": [
+											0,
+											4.6835408210754395,
+											0,
+											0,
+											8.703479766845703,
+											0
+										]
+									},
+									{
+										"time": 1.0333333333333334,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0,
+											0,
+											12.374378204345703,
+											0
+										]
+									},
+									{
+										"time": 1.6166666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": [
+											0,
+											4.6835408210754395,
+											0,
+											0,
+											8.703479766845703,
+											0
+										]
+									},
+									{
+										"time": 2,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0,
+											0,
+											12.374378204345703,
+											0
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 5,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.1331186294555664,
+											0,
+											0,
+											10.80160903930664,
+											0
+										]
+									},
+									{
+										"time": 0.3333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": [
+											0,
+											6.297675609588623,
+											0,
+											0,
+											9.029451370239258,
+											0
+										]
+									},
+									{
+										"time": 0.65,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.1331186294555664,
+											0,
+											0,
+											10.80160903930664,
+											0
+										]
+									},
+									{
+										"time": 0.95,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											6.297675609588623,
+											0,
+											0,
+											9.029451370239258,
+											0
+										]
+									},
+									{
+										"time": 1.2666666666666666,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.1331186294555664,
+											0,
+											0,
+											10.80160903930664,
+											0
+										]
+									},
+									{
+										"time": 1.6833333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": [
+											0,
+											6.297675609588623,
+											0,
+											0,
+											9.029451370239258,
+											0
+										]
+									},
+									{
+										"time": 1.9833333333333334,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.1331186294555664,
+											0,
+											0,
+											10.80160903930664,
+											0
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 8,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": [
+											0,
+											4.5701375007629395,
+											0,
+											0,
+											8.986459732055664,
+											0
+										]
+									},
+									{
+										"time": 0.4,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.34408602150537637,
+										"cubicY2": 1.01747311827957,
+										"value": [
+											0,
+											6.9451375007629395,
+											0,
+											0,
+											8.111459732055664,
+											0
+										]
+									},
+									{
+										"time": 0.7333333333333333,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.5701375007629395,
+											0,
+											0,
+											8.986459732055664,
+											0
+										]
+									},
+									{
+										"time": 1.0166666666666666,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											6.9451375007629395,
+											0,
+											0,
+											8.111459732055664,
+											0
+										]
+									},
+									{
+										"time": 1.35,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.5701375007629395,
+											0,
+											0,
+											8.986459732055664,
+											0
+										]
+									},
+									{
+										"time": 1.75,
+										"interpolatorType": 2,
+										"cubicX1": 0.6612903225806451,
+										"cubicY1": -0.004032258064516014,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": [
+											0,
+											6.9451375007629395,
+											0,
+											0,
+											8.111459732055664,
+											0
+										]
+									},
+									{
+										"time": 2,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.5701375007629395,
+											0,
+											0,
+											8.986459732055664,
+											0
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 11,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0,
+											0,
+											11.773386001586914,
+											0
+										]
+									},
+									{
+										"time": 0.21666666666666667,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											1.6666669845581055,
+											0,
+											0,
+											9.44005012512207,
+											0
+										]
+									},
+									{
+										"time": 0.5333333333333333,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											-1.1666665077209473,
+											0,
+											0,
+											13.940052032470703,
+											0
+										]
+									},
+									{
+										"time": 0.85,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											1.6666669845581055,
+											0,
+											0,
+											9.44005012512207,
+											0
+										]
+									},
+									{
+										"time": 1.1333333333333333,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											-1.1666665077209473,
+											0,
+											0,
+											13.940052032470703,
+											0
+										]
+									},
+									{
+										"time": 1.45,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											1.6666669845581055,
+											0,
+											0,
+											9.44005012512207,
+											0
+										]
+									},
+									{
+										"time": 1.7833333333333334,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											-1.1666665077209473,
+											0,
+											0,
+											13.940052032470703,
+											0
+										]
+									},
+									{
+										"time": 2,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0,
+											0,
+											11.773386001586914,
+											0
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 14,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.0065360069274902,
+											0,
+											0,
+											11.010099411010742,
+											0
+										]
+									},
+									{
+										"time": 0.23333333333333334,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.25653600692749,
+											0,
+											0,
+											7.7958083152771,
+											0
+										]
+									},
+									{
+										"time": 0.5666666666666667,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											1.042250156402588,
+											0,
+											0,
+											12.08152961730957,
+											0
+										]
+									},
+									{
+										"time": 0.9833333333333333,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.25653600692749,
+											0,
+											0,
+											7.7958083152771,
+											0
+										]
+									},
+									{
+										"time": 1.3333333333333333,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											1.042250156402588,
+											0,
+											0,
+											12.08152961730957,
+											0
+										]
+									},
+									{
+										"time": 1.6666666666666667,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											4.25653600692749,
+											0,
+											0,
+											7.7958083152771,
+											0
+										]
+									},
+									{
+										"time": 2,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											3.0065360069274902,
+											0,
+											0,
+											11.010099411010742,
+											0
+										]
+									}
+								]
+							]
+						}
+					],
+					"animationStart": 0,
+					"animationEnd": 2,
+					"type": "animation"
+				}
+			],
+			"type": "artboard"
+		}
+	]
+}

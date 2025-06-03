@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@com.hintsolutions.raintv:style/TextAppearance.AppCompat.Body2" android:layout_width="fill_parent" android:paddingRight="?com.hintsolutions.raintv:listPreferredItemPaddingRight" android:gravity="start|center" android:layout_height="?com.hintsolutions.raintv:listPreferredItemHeightSmall" android:textColor="?textColorSecondary" android:maxLines="1" android:paddingLeft="?com.hintsolutions.raintv:listPreferredItemPaddingLeft" />

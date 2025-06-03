@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:color="@com.hintsolutions.raintv:color/common_google_signin_btn_text_dark_disabled" android:state_enabled="false" />
+  <item android:color="@com.hintsolutions.raintv:color/common_google_signin_btn_text_dark_pressed" android:state_pressed="true" />
+  <item android:state_focused="true" android:color="@com.hintsolutions.raintv:color/common_google_signin_btn_text_dark_focused" />
+  <item android:color="@com.hintsolutions.raintv:color/common_google_signin_btn_text_dark_default" />
+</selector>

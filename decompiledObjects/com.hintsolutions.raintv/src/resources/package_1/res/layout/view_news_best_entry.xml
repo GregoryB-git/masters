@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:clipChildren="false"
+              android:clipToPadding="false"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <LinearLayout android:orientation="vertical"
+                android:id="@id/rootLayout"
+                android:clickable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Selectable">
+    <FrameLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+      <ImageView android:id="@id/newsImageView"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:scaleType="fitStart"
+                 android:adjustViewBounds="true" />
+      <TextView android:textSize="17.0sp"
+                android:textColor="@color/color_rain_white"
+                android:id="@id/programTextView"
+                android:background="@color/color_rain_pink"
+                android:padding="8.0dp"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Здесь и сейчас"
+                android:singleLine="true"
+                android:textAllCaps="true" />
+      <ImageView android:layout_gravity="center|right|top"
+                 android:id="@id/addToFavorites"
+                 android:background="?attr/selectableItemBackgroundBorderless"
+                 android:paddingLeft="16.0dp"
+                 android:paddingTop="8.0dp"
+                 android:paddingRight="16.0dp"
+                 android:paddingBottom="8.0dp"
+                 android:clickable="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 raintv:srcCompat="@0x7f080057" />
+    </FrameLayout>
+    <TextView android:textSize="18.0sp"
+              android:textColor="@color/color_rain_text_black"
+              android:id="@id/nameTextView"
+              android:paddingLeft="@dimen/default_padding"
+              android:paddingRight="@dimen/default_padding"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/half_margin"
+              android:layout_marginBottom="@dimen/default_padding" />
+  </LinearLayout>
+  <LinearLayout android:orientation="vertical"
+                android:id="@id/adLayout"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50.0dp" />
+  <View android:id="@id/elementDivider"
+        android:background="?android:attr/listDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dp"
+        android:layout_marginBottom="16.0dp" />
+</LinearLayout>

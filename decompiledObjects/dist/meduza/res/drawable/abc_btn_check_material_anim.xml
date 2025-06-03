@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android" android:fromId="@io.meduza.meduza:id/checked" android:drawable="@io.meduza.meduza:drawable/btn_checkbox_checked_to_unchecked_mtrl_animation" android:toId="@io.meduza.meduza:id/unchecked" />

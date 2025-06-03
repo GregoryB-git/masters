@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="horizontal"
+              android:background="@color/color_rain_white"
+              android:paddingLeft="@dimen/content_padding"
+              android:paddingTop="16.0dp"
+              android:paddingRight="@dimen/content_padding"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <com.hintsolutions.raintv.views.CustomFontTextView android:textSize="16.0sp"
+                        android:textColor="@color/color_new_pink"
+                        android:id="@id/section_header"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ph_section_header"
+                        android:lineSpacingExtra="4.0sp"
+                        raintv:font_face="@string/font_roboto_medium" />
+  <ImageView android:id="@id/imageView11"
+             android:paddingLeft="2.0dp"
+             android:paddingTop="4.0dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.0"
+             raintv:srcCompat="@0x7f08005a" />
+</LinearLayout>

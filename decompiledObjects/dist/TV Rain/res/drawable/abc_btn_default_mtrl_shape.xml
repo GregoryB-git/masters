@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@com.hintsolutions.raintv:dimen/abc_button_inset_horizontal_material" android:insetTop="@com.hintsolutions.raintv:dimen/abc_button_inset_vertical_material" android:insetBottom="@com.hintsolutions.raintv:dimen/abc_button_inset_vertical_material" android:insetRight="@com.hintsolutions.raintv:dimen/abc_button_inset_horizontal_material">
+  <shape android:shape="rectangle">
+    <corners android:radius="@com.hintsolutions.raintv:dimen/abc_control_corner_material" />
+    <solid android:color="@color/white" />
+    <padding android:bottom="@com.hintsolutions.raintv:dimen/abc_button_padding_vertical_material" android:left="@com.hintsolutions.raintv:dimen/abc_button_padding_horizontal_material" android:right="@com.hintsolutions.raintv:dimen/abc_button_padding_horizontal_material" android:top="@com.hintsolutions.raintv:dimen/abc_button_padding_vertical_material" />
+  </shape>
+</inset>

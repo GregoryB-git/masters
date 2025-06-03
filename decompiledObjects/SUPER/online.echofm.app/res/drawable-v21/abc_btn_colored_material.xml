@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetBottom="@online.echofm.app:dimen/abc_button_inset_vertical_material" android:insetTop="@online.echofm.app:dimen/abc_button_inset_vertical_material" android:insetRight="@online.echofm.app:dimen/abc_button_inset_horizontal_material" android:insetLeft="@online.echofm.app:dimen/abc_button_inset_horizontal_material">
+  <ripple android:color="?colorControlHighlight">
+    <item>
+      <selector>
+        <item android:state_enabled="false">
+          <shape android:shape="rectangle">
+            <corners android:radius="@online.echofm.app:dimen/abc_control_corner_material" />
+            <solid android:color="?colorButtonNormal" />
+            <padding android:left="@online.echofm.app:dimen/abc_button_padding_horizontal_material" android:top="@online.echofm.app:dimen/abc_button_padding_vertical_material" android:right="@online.echofm.app:dimen/abc_button_padding_horizontal_material" android:bottom="@online.echofm.app:dimen/abc_button_padding_vertical_material" />
+          </shape>
+        </item>
+        <item>
+          <shape android:shape="rectangle">
+            <corners android:radius="@online.echofm.app:dimen/abc_control_corner_material" />
+            <solid android:color="?colorAccent" />
+            <padding android:bottom="@online.echofm.app:dimen/abc_button_padding_vertical_material" android:left="@online.echofm.app:dimen/abc_button_padding_horizontal_material" android:top="@online.echofm.app:dimen/abc_button_padding_vertical_material" android:right="@online.echofm.app:dimen/abc_button_padding_horizontal_material" />
+          </shape>
+        </item>
+      </selector>
+    </item>
+  </ripple>
+</inset>

@@ -1,0 +1,28 @@
+package androidx.dynamicanimation.animation;
+
+import android.view.View;
+
+final class DynamicAnimation$8
+  extends DynamicAnimation.ViewProperty
+{
+  public DynamicAnimation$8(String paramString)
+  {
+    super(paramString, null);
+  }
+  
+  public float getValue(View paramView)
+  {
+    return paramView.getRotationY();
+  }
+  
+  public void setValue(View paramView, float paramFloat)
+  {
+    paramView.setRotationY(paramFloat);
+  }
+}
+
+/* Location:
+ * Qualified Name:     androidx.dynamicanimation.animation.DynamicAnimation.8
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

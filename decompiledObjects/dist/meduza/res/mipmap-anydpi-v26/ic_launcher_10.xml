@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<monochrome xmlns:android="http://schemas.android.com/apk/res/android">
+  <inset android:inset="18.0%" android:drawable="@io.meduza.meduza:mipmap/ic_launcher_monochrome_10" />
+</monochrome>

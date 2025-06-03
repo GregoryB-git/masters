@@ -1,0 +1,592 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1056016" android:versionName="2.11.2" android:installLocation="2" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.hintsolutions.raintv" platformBuildVersionCode="34" platformBuildVersionName="14" distribution:requiredSplitTypes="base__abi,base__density" distribution:splitTypes="">
+<uses-sdk android:minSdkVersion="24" android:targetSdkVersion="34">
+</uses-sdk>
+<uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY">
+</uses-permission>
+<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK">
+</uses-permission>
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW">
+</uses-permission>
+<uses-permission android:name="android.permission.VIBRATE">
+</uses-permission>
+<uses-permission android:name="android.permission.REORDER_TASKS">
+</uses-permission>
+<uses-permission android:name="android.permission.GET_ACCOUNTS">
+</uses-permission>
+<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE">
+</uses-permission>
+<uses-permission android:name="android.permission.RECORD_AUDIO">
+</uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+</uses-permission>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE">
+</uses-permission>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK">
+</uses-permission>
+<uses-feature android:name="android.hardware.camera" android:required="false">
+</uses-feature>
+<uses-feature android:name="android.hardware.camera.autofocus" android:required="false">
+</uses-feature>
+<uses-feature android:name="android.hardware.microphone" android:required="false">
+</uses-feature>
+<uses-feature android:name="android.hardware.location.network" android:required="false">
+</uses-feature>
+<uses-feature android:glEsVersion="0x00020000" android:required="true">
+</uses-feature>
+<permission android:name="com.hintsolutions.raintv.permission.C2D_MESSAGE" android:protectionLevel="0x00000002">
+</permission>
+<uses-permission android:name="com.hintsolutions.raintv.permission.C2D_MESSAGE">
+</uses-permission>
+<queries>
+<package android:name="com.google.android.gms.policy_cast_dynamite">
+</package>
+</queries>
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS">
+</uses-permission>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+</uses-permission>
+<uses-permission android:name="com.sec.android.provider.badge.permission.READ">
+</uses-permission>
+<uses-permission android:name="com.sec.android.provider.badge.permission.WRITE">
+</uses-permission>
+<uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS">
+</uses-permission>
+<uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT">
+</uses-permission>
+<uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE">
+</uses-permission>
+<uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE">
+</uses-permission>
+<uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT">
+</uses-permission>
+<uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE">
+</uses-permission>
+<uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE">
+</uses-permission>
+<uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS">
+</uses-permission>
+<uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS">
+</uses-permission>
+<uses-permission android:name="android.permission.READ_APP_BADGE">
+</uses-permission>
+<uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS">
+</uses-permission>
+<uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS">
+</uses-permission>
+<uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ">
+</uses-permission>
+<uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE">
+</uses-permission>
+<uses-permission android:name="com.hintsolutions.raintv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION">
+</uses-permission>
+<uses-permission android:name="com.google.android.gms.permission.AD_ID">
+</uses-permission>
+<uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE">
+</uses-permission>
+<permission android:name="com.hintsolutions.raintv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002">
+</permission>
+<application android:theme="@2131820553" android:label="@2131755051" android:icon="@2131231025" android:name="com.hintsolutions.raintv.RainApplication" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:resizeableActivity="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:isSplitRequired="true" android:requestLegacyExternalStorage="true">
+<activity android:name="com.hintsolutions.raintv.profile.MailAuthActivity">
+</activity>
+<activity android:theme="@16973840" android:name="com.onesignal.NotificationOpenedActivityHMS" android:exported="true" android:noHistory="true">
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+</intent-filter>
+</activity>
+<activity android:theme="@2131821212" android:name="com.yandex.authsdk.internal.BrowserDataActivity" android:exported="true">
+<intent-filter android:autoVerify="true">
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="https" android:host="yxd6c2d920adfa47f4b635688a2c1e8d60.oauth.yandex.ru" android:path="/auth/finish">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="yxd6c2d920adfa47f4b635688a2c1e8d60" android:path="/auth/finish">
+</data>
+</intent-filter>
+</activity>
+<receiver android:name="com.onesignal.BootUpReceiver" android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.BOOT_COMPLETED">
+</action>
+<action android:name="android.intent.action.QUICKBOOT_POWERON">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="com.onesignal.UpgradeReceiver" android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.MY_PACKAGE_REPLACED">
+</action>
+</intent-filter>
+</receiver>
+<uses-library android:name="org.apache.http.legacy" android:required="false">
+</uses-library>
+<meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE">
+</meta-data>
+<meta-data android:name="com.onesignal.NotificationServiceExtension" android:value=".services.push.NotificationServiceExtension">
+</meta-data>
+<meta-data android:name="com.samsung.android.sdk.multiwindow.enable" android:value="true">
+</meta-data>
+<meta-data android:name="com.sec.android.multiwindow.STYLE" android:value="fixedRatio">
+</meta-data>
+<meta-data android:name="com.sec.android.support.multiwindow" android:value="true">
+</meta-data>
+<uses-library android:name="com.sec.android.app.multiwindow" android:required="false">
+</uses-library>
+<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@2131755251">
+</meta-data>
+<meta-data android:name="com.onesignal.BadgeCount" android:value="DISABLE">
+</meta-data>
+<meta-data android:name="com.crashlytics.ApiKey" android:value="6c8fa1dd1370b0275ef1f385e39fc0c005c51a28">
+</meta-data>
+<meta-data android:name="com.google.android.gms.version" android:value="@2131361807">
+</meta-data>
+<meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" android:value="tvrain.cast.CastOptionsProvider">
+</meta-data>
+<activity android:theme="@2131820940" android:label="@2131755051" android:name="com.hintsolutions.raintv.MainActivity" android:exported="true" android:configChanges="0x00000480">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+<category android:name="android.intent.category.LAUNCHER">
+</category>
+<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER">
+</category>
+</intent-filter>
+</activity>
+<activity android:label="@2131755056" android:name="com.hintsolutions.raintv.profile.AuthorizationActivity" android:configChanges="0x00000480" android:windowSoftInputMode="0x00000002">
+</activity>
+<activity android:theme="@2131820843" android:name="com.hintsolutions.raintv.profile.WebViewActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:label="@2131755538" android:name="com.hintsolutions.raintv.profile.RegistrationActivity" android:configChanges="0x00000480" android:windowSoftInputMode="0x00000002">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755470" android:name="com.hintsolutions.raintv.news.NewsActivity" android:configChanges="0x00000480" android:parentActivityName="com.hintsolutions.raintv.MainActivity">
+</activity>
+<activity android:theme="@2131820940" android:label="@2131755562" android:name="com.hintsolutions.raintv.programs.ProgramActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:label="@2131755509" android:name="com.hintsolutions.raintv.promos.GiftSubscriptionActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755357" android:name="com.hintsolutions.raintv.video.VideoActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755357" android:name="com.hintsolutions.raintv.video.LocalVideoActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755357" android:name="com.hintsolutions.raintv.video.LiveActivity" android:configChanges="0x00000480" android:supportsPictureInPicture="true">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755039" android:name="com.hintsolutions.raintv.services.audio.AudioActivity" android:launchMode="3">
+</activity>
+<activity android:label="@2131755051" android:name="com.hintsolutions.raintv.DeepLinkingActivity" android:exported="true" android:launchMode="2">
+<intent-filter android:autoVerify="true">
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="https" android:host="bnc.lt" android:pathPrefix="/L2en">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="http" android:host="app.tvrain.tv" android:pathPrefix="/L2en">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="tvrain" android:host="open">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="https" android:host="tvrain.alternate.app.link">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="https" android:host="tvrain.app.link">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="http" android:host="tvrain.alternate.app.link">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="http" android:host="tvrain.app.link">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="tvrain" android:host="tvrain.alternate.app.link">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="tvrain" android:host="tvrain.app.link">
+</data>
+</intent-filter>
+</activity>
+<activity android:label="@2131755613" android:name="com.hintsolutions.raintv.profile.RecoveryActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:label="@2131755588" android:name="com.hintsolutions.raintv.subscriptions.LinkActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:theme="@2131820555" android:name="com.hintsolutions.raintv.common.WebViewActivity">
+</activity>
+<activity android:name="tvrain.youtube.YouTubeVideoActivity" android:configChanges="0x000004A0">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755051" android:name="tvrain.cast.ExpandedControlsActivity" android:exported="true" android:launchMode="2" android:screenOrientation="1">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+</intent-filter>
+</activity>
+<activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="@2131755252">
+</data>
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:scheme="fbconnect" android:host="cct.com.hintsolutions.raintv">
+</data>
+</intent-filter>
+</activity>
+<activity android:theme="@16973840" android:label="@2131755051" android:name="com.facebook.FacebookActivity" android:configChanges="0x000005B0">
+</activity>
+<activity android:theme="@2131821400" android:label="ServiceActivity" android:name="com.vk.sdk.VKServiceActivity">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755046" android:name="com.hintsolutions.raintv.subscriptions.AgreementActivity" android:configChanges="0x00000480">
+</activity>
+<activity android:theme="@2131820555" android:label="@2131755521" android:name="com.hintsolutions.raintv.subscriptions.PurchaseInfoActivity" android:configChanges="0x00000480">
+</activity>
+<service android:name="com.hintsolutions.raintv.services.audio.MusicService" android:exported="true" android:foregroundServiceType="0x00000002">
+<intent-filter>
+<action android:name="android.media.browse.MediaBrowserService">
+</action>
+<action android:name="com.hintsolutions.raintv.services.audio.musicservice.ACTION_CMD">
+</action>
+</intent-filter>
+</service>
+<provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.fileprovider" android:grantUriPermissions="true">
+<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@2131951617">
+</meta-data>
+</provider>
+<provider android:name="com.hintsolutions.raintv.search.SuggestionProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.search.SuggestionProvider">
+</provider>
+<activity android:theme="@2131820940" android:name="com.hintsolutions.raintv.search.SearchActivity" android:exported="true" android:launchMode="1">
+<intent-filter>
+<action android:name="android.intent.action.SEARCH">
+</action>
+</intent-filter>
+<meta-data android:name="android.app.searchable" android:resource="@2131951619">
+</meta-data>
+</activity>
+<activity android:theme="@2131820940" android:label="@2131755604" android:name="com.hintsolutions.raintv.programs.TeleshowInfoActivity">
+</activity>
+<activity android:theme="@2131820940" android:label="@2131755048" android:name="com.hintsolutions.raintv.news.NewsListActivity">
+</activity>
+<activity android:name="com.hintsolutions.raintv.video.PlaylistActivity">
+</activity>
+<service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+<meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+<meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar">
+</meta-data>
+</service>
+<receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" android:exported="false">
+</receiver>
+<service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" android:exported="false" android:foregroundServiceType="0x00000002">
+</service>
+<service android:name="com.google.android.gms.cast.framework.ReconnectionService" android:exported="false">
+</service>
+<receiver android:name="com.onesignal.FCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+<intent-filter android:priority="999">
+<action android:name="com.google.android.c2dm.intent.RECEIVE">
+</action>
+<category android:name="com.hintsolutions.raintv">
+</category>
+</intent-filter>
+</receiver>
+<service android:name="com.onesignal.HmsMessageServiceOneSignal" android:exported="false">
+<intent-filter>
+<action android:name="com.huawei.push.action.MESSAGING_EVENT">
+</action>
+</intent-filter>
+</service>
+<service android:name="com.onesignal.FCMIntentService" android:exported="false">
+</service>
+<service android:name="com.onesignal.FCMIntentJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+</service>
+<service android:name="com.onesignal.SyncService" android:exported="false" android:stopWithTask="true">
+</service>
+<service android:name="com.onesignal.SyncJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+</service>
+<activity android:theme="@16973840" android:name="com.onesignal.PermissionsActivity" android:exported="false">
+</activity>
+<receiver android:name="com.onesignal.NotificationDismissReceiver" android:exported="true">
+</receiver>
+<activity android:theme="@16973840" android:name="com.onesignal.NotificationOpenedReceiver" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:noHistory="true">
+</activity>
+<activity android:theme="@16973840" android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder" android:exported="true" android:excludeFromRecents="true" android:noHistory="true">
+</activity>
+<activity android:name="com.facebook.CustomTabMainActivity">
+</activity>
+<activity android:theme="@2131820923" android:name="com.twitter.sdk.android.tweetui.PlayerActivity" android:configChanges="0x000004A0">
+</activity>
+<activity android:theme="@2131820923" android:name="com.twitter.sdk.android.tweetui.GalleryActivity">
+</activity>
+<receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false">
+</receiver>
+<service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false">
+</service>
+<service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false">
+</service>
+<activity android:theme="@16973840" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true">
+</activity>
+<service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true" android:visibleToInstantApps="true">
+</service>
+<service android:name="com.google.android.gms.tagmanager.TagManagerService" android:enabled="true" android:exported="false">
+</service>
+<activity android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity" android:exported="true" android:noHistory="true">
+<intent-filter>
+<data android:scheme="tagmanager.c.com.hintsolutions.raintv">
+</data>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+</intent-filter>
+</activity>
+<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+<intent-filter>
+<action android:name="com.google.android.c2dm.intent.RECEIVE">
+</action>
+</intent-filter>
+</receiver>
+<service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false" android:directBootAware="true">
+<intent-filter android:priority="-500">
+<action android:name="com.google.firebase.MESSAGING_EVENT">
+</action>
+</intent-filter>
+</service>
+<service android:name="com.yandex.metrica.MetricaService" android:enabled="true" android:exported="false" android:process=":Metrica">
+<intent-filter>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<action android:name="com.yandex.metrica.IMetricaService">
+</action>
+<data android:scheme="metrica">
+</data>
+</intent-filter>
+<meta-data android:name="metrica:api:level" android:value="105">
+</meta-data>
+</service>
+<provider android:name="com.yandex.metrica.PreloadInfoContentProvider" android:enabled="true" android:exported="true" android:process=":Metrica" android:authorities="com.hintsolutions.raintv.appmetrica.preloadinfo.retail">
+</provider>
+<activity android:theme="@16973840" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false">
+</activity>
+<provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.firebaseinitprovider" android:initOrder="100" android:directBootAware="true">
+</provider>
+<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false">
+</receiver>
+<service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false">
+</service>
+<service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false">
+</service>
+<provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.FacebookInitProvider">
+</provider>
+<receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+<intent-filter>
+<action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED">
+</action>
+</intent-filter>
+</receiver>
+<activity android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity" android:exported="false" android:windowSoftInputMode="0x00000014">
+</activity>
+<service android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService" android:enabled="true" android:exported="false">
+</service>
+<provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.com.squareup.picasso">
+</provider>
+<activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="0x00000480">
+</activity>
+<provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.hintsolutions.raintv.androidx-startup">
+<meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup">
+</meta-data>
+<meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup">
+</meta-data>
+<meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup">
+</meta-data>
+</provider>
+<service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="@2131034119" android:exported="false" android:directBootAware="false">
+</service>
+<service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="@2131034121" android:exported="true" android:directBootAware="false">
+</service>
+<service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="@2131034120" android:exported="false" android:directBootAware="false">
+</service>
+<receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false">
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="android.intent.action.ACTION_POWER_CONNECTED">
+</action>
+<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="android.intent.action.BATTERY_OKAY">
+</action>
+<action android:name="android.intent.action.BATTERY_LOW">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="android.intent.action.DEVICE_STORAGE_LOW">
+</action>
+<action android:name="android.intent.action.DEVICE_STORAGE_OK">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="android.net.conn.CONNECTIVITY_CHANGE">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="android.intent.action.BOOT_COMPLETED">
+</action>
+<action android:name="android.intent.action.TIME_SET">
+</action>
+<action android:name="android.intent.action.TIMEZONE_CHANGED">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="@2131034119" android:exported="false" android:directBootAware="false">
+<intent-filter>
+<action android:name="androidx.work.impl.background.systemalarm.UpdateProxies">
+</action>
+</intent-filter>
+</receiver>
+<receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+<intent-filter>
+<action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS">
+</action>
+</intent-filter>
+</receiver>
+<service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
+<meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct">
+</meta-data>
+</service>
+<service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+</service>
+<receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false">
+</receiver>
+<service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true">
+</service>
+<activity android:theme="@2131821212" android:label="" android:name="com.yandex.authsdk.internal.AuthSdkActivity">
+</activity>
+<activity android:name="com.yandex.authsdk.internal.BrowserLoginActivity" android:launchMode="1">
+</activity>
+<activity android:theme="@2131821211" android:name="com.yandex.authsdk.internal.WebViewLoginActivity" android:configChanges="0x000004B0">
+</activity>
+<meta-data android:name="com.yandex.auth.CLIENT_ID" android:value="d6c2d920adfa47f4b635688a2c1e8d60">
+</meta-data>
+<meta-data android:name="com.android.vending.splits.required" android:value="true">
+</meta-data>
+<meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store">
+</meta-data>
+<meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK">
+</meta-data>
+<meta-data android:name="com.android.vending.splits" android:resource="@2131951625">
+</meta-data>
+<meta-data android:name="com.android.vending.derived.apk.id" android:value="3">
+</meta-data>
+</application>
+</manifest>

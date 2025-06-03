@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true" android:color="@online.echofm.app:color/abc_search_url_text_pressed" />
+  <item android:color="@online.echofm.app:color/abc_search_url_text_selected" android:state_selected="true" />
+  <item android:color="@online.echofm.app:color/abc_search_url_text_normal" />
+</selector>

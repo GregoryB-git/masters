@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:propertyName="scaleX" android:valueFrom="1.0" android:duration="166" android:valueType="floatType" android:valueTo="0.5" />
+    <objectAnimator android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX" android:valueFrom="0.5" android:duration="16" />
+    <objectAnimator android:valueType="floatType" android:valueTo="1.0" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:duration="316" android:propertyName="scaleX" android:valueFrom="0.9" />
+  </set>
+  <set android:ordering="sequentially">
+    <objectAnimator android:propertyName="scaleY" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:valueFrom="1.0" android:duration="166" android:valueTo="0.5" android:valueType="floatType" />
+    <objectAnimator android:duration="16" android:propertyName="scaleY" android:valueTo="0.9" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:valueFrom="0.5" android:valueType="floatType" />
+    <objectAnimator android:valueFrom="0.9" android:propertyName="scaleY" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:duration="316" android:valueTo="1.0" android:valueType="floatType" />
+  </set>
+</set>

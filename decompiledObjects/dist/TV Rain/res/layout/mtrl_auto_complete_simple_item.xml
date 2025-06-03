@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:maxLines="1" android:layout_height="wrap_content" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:textAppearance="?com.hintsolutions.raintv:textAppearanceSubtitle1" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:ellipsize="end" />

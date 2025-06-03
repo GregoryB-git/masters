@@ -1,0 +1,10 @@
+// 
+// Decompiled by Procyon v1.0-SNAPSHOT
+// 
+
+package V3;
+
+public interface i
+{
+    void a(final h p0);
+}

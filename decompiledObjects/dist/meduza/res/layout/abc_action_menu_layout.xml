@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<androidx.appcompat.widget.ActionMenuView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:divider="?io.meduza.meduza:actionBarDivider" android:layout_height="wrap_content" app:dividerPadding="12.0dip" android:gravity="center_vertical" android:layout_width="wrap_content" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:valueType="floatType" android:valueFrom="2.0" android:valueTo="18.0" android:propertyName="strokeWidth" android:interpolator="@online.echofm.app:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0" android:duration="166" />
+    <objectAnimator android:propertyName="strokeWidth" android:valueTo="2.0" android:valueFrom="18.0" android:duration="16" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:valueType="floatType" />
+    <objectAnimator android:valueFrom="2.0" android:valueTo="2.0" android:valueType="floatType" android:duration="316" android:interpolator="@online.echofm.app:interpolator/fast_out_slow_in" android:propertyName="strokeWidth" />
+  </set>
+</set>

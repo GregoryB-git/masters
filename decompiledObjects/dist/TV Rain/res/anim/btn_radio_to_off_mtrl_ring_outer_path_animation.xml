@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator android:propertyName="strokeWidth" android:valueTo="2.0" android:duration="183" android:valueType="floatType" android:valueFrom="2.0" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" />
+    <objectAnimator android:valueFrom="2.0" android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:duration="16" android:valueTo="18.0" android:propertyName="strokeWidth" android:valueType="floatType" />
+    <objectAnimator android:interpolator="@com.hintsolutions.raintv:interpolator/fast_out_slow_in" android:propertyName="strokeWidth" android:valueFrom="18.0" android:valueType="floatType" android:valueTo="2.0" android:duration="300" />
+  </set>
+</set>

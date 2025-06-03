@@ -1,0 +1,27 @@
+package e0;
+
+import android.view.ViewGroup;
+
+public final class k0
+{
+  public static int a(ViewGroup paramViewGroup)
+  {
+    return paramViewGroup.getNestedScrollAxes();
+  }
+  
+  public static boolean b(ViewGroup paramViewGroup)
+  {
+    return paramViewGroup.isTransitionGroup();
+  }
+  
+  public static void c(ViewGroup paramViewGroup, boolean paramBoolean)
+  {
+    paramViewGroup.setTransitionGroup(paramBoolean);
+  }
+}
+
+/* Location:
+ * Qualified Name:     e0.k0
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

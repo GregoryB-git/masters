@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:color="?colorForeground" android:state_enabled="false" android:alpha="0.1" />
+  <item android:state_checked="true" android:alpha="0.3" android:color="?online.echofm.app:colorControlActivated" />
+  <item android:alpha="0.3" android:color="?colorForeground" />
+</selector>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout android:orientation="vertical"
+              android:id="@id/root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:raintv="http://schemas.android.com/apk/res-auto">
+  <com.google.android.material.appbar.AppBarLayout android:background="@color/color_rain_white"
+                        android:fitsSystemWindows="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+    <include layout="@layout/toolbar_search" />
+    <include layout="@layout/subscription" />
+  </com.google.android.material.appbar.AppBarLayout>
+  <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal"
+                        android:id="@id/search_types"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16.0dp"
+                        android:layout_marginBottom="16.0dp"
+                        raintv:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+  <TextView android:gravity="center"
+            android:id="@id/search_not_found"
+            android:paddingTop="50.0dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_not_found" />
+  <androidx.recyclerview.widget.RecyclerView android:id="@id/search_results"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        raintv:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

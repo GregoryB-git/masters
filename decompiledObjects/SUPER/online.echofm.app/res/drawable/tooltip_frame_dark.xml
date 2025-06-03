@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+  <solid android:color="@online.echofm.app:color/tooltip_background_dark" />
+  <corners android:radius="@online.echofm.app:dimen/tooltip_corner_radius" />
+</shape>

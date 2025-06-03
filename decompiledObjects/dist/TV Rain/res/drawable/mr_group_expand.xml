@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_00" android:duration="13" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_01" android:duration="13" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_02" android:duration="13" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_03" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_04" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_05" android:duration="13" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_06" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_07" android:duration="13" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_08" android:duration="13" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_09" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_10" android:duration="13" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_11" android:duration="13" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_12" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_13" />
+  <item android:duration="13" android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_14" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/ic_group_expand_15" android:duration="13" />
+</animation-list>

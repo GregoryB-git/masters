@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__login_btn_pressed" android:state_pressed="true" android:state_focused="true" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__login_btn_pressed" android:state_focused="false" android:state_pressed="true" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__login_btn_pressed" android:state_focused="true" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__login_btn_disabled" android:state_enabled="false" />
+  <item android:drawable="@com.hintsolutions.raintv:drawable/tw__login_btn_default" />
+</selector>

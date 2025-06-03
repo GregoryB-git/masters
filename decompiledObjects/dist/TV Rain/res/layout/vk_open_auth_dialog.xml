@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_height="fill_parent" android:layout_width="wrap_content" android:fitsSystemWindows="true">
+  <RelativeLayout android:paddingTop="10.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true" android:paddingBottom="10.0dip" android:layout_width="fill_parent" />
+</RelativeLayout>

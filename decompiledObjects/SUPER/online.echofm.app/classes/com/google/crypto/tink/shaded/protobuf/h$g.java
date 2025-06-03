@@ -1,0 +1,15 @@
+package com.google.crypto.tink.shaded.protobuf;
+
+import java.util.Iterator;
+
+public abstract interface h$g
+  extends Iterator
+{
+  public abstract byte c();
+}
+
+/* Location:
+ * Qualified Name:     com.google.crypto.tink.shaded.protobuf.h.g
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

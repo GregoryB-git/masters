@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+  <dimen name="md_dialog_max_width">496.0dp</dimen>
+  <dimen name="mr_dialog_fixed_width_major">50.0%</dimen>
+  <dimen name="mr_dialog_fixed_width_minor">70.0%</dimen>
+</resources>

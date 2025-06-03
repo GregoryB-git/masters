@@ -1,0 +1,17 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-47.4%" y="-47.4%" width="194.8%" height="194.8%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g filter="url(#a)" transform="translate(11 11)" fill="none" fill-rule="evenodd">
+        <circle stroke-opacity=".246" stroke="#FFF" stroke-width="2" fill-opacity=".2" fill="#000" cx="29" cy="29" r="30"/>
+        <path d="M36.828 18.412c.55 0 .996.442.996.993v19.19a.998.998 0 01-.996.993h-3.303a.993.993 0 01-.996-.993v-19.19c0-.549.452-.993.996-.993h3.303zm-12.353 0c.55 0 .996.442.996.993v19.19a.998.998 0 01-.996.993h-3.303a.993.993 0 01-.996-.993v-19.19c0-.549.452-.993.996-.993h3.303z" stroke="#FFFEFF" fill="#FFF" stroke-linejoin="round"/>
+    </g>
+</svg>

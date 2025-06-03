@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:md_reduce_padding_no_title_no_buttons="false" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent">
+  <include layout="@com.hintsolutions.raintv:layout/md_stub_titleframe" />
+  <LinearLayout android:paddingBottom="@com.hintsolutions.raintv:dimen/md_content_padding_bottom" android:paddingTop="@com.hintsolutions.raintv:dimen/md_content_padding_top" android:layout_height="wrap_content" android:orientation="vertical" android:paddingLeft="@com.hintsolutions.raintv:dimen/md_dialog_frame_margin" android:layout_width="fill_parent" android:paddingRight="@com.hintsolutions.raintv:dimen/md_dialog_frame_margin" android:layout_weight="1.0">
+    <include layout="@com.hintsolutions.raintv:layout/md_stub_progress" />
+  </LinearLayout>
+  <include layout="@com.hintsolutions.raintv:layout/md_stub_actionbuttons" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

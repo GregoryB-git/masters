@@ -1,0 +1,54 @@
+package t2;
+
+import f;
+
+public abstract class b
+{
+  public static final class a
+    extends b
+  {
+    public static final a a = new a();
+  }
+  
+  public static final class b
+    extends b
+  {
+    public final int a;
+    
+    public b(int paramInt)
+    {
+      a = paramInt;
+    }
+    
+    public final boolean equals(Object paramObject)
+    {
+      if (this == paramObject) {
+        return true;
+      }
+      if (!(paramObject instanceof b)) {
+        return false;
+      }
+      paramObject = (b)paramObject;
+      return a == a;
+    }
+    
+    public final int hashCode()
+    {
+      return a;
+    }
+    
+    public final String toString()
+    {
+      StringBuilder localStringBuilder = f.l("ConstraintsNotMet(reason=");
+      localStringBuilder.append(a);
+      localStringBuilder.append(')');
+      return localStringBuilder.toString();
+    }
+  }
+}
+
+/* Location:
+ * Qualified Name:     t2.b
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

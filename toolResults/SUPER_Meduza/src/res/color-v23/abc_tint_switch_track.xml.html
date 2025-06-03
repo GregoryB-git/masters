@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Source - res/color-v23/abc_tint_switch_track.xml</title>
+        <link rel="stylesheet" href="../../../css/androidstudio.css">
+        <link rel="stylesheet" href="../../../css/style.css">
+    </head>
+
+    <body>
+        <div>
+            <div class="line_numbers">1<br>2<br>3<br>4<br>5<br></div>
+            <div class="code">
+                <pre><code><code id="code-line-1"><span class="line_body">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;</span></code><br><code id="code-line-2"><span class="line_body">&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"&gt;</span></code><br><code id="code-line-3">  <span class="line_body">&lt;item android:alpha="0.1" android:color="?colorForeground" android:state_enabled="false" /&gt;</span></code><br><code id="code-line-4">  <span class="line_body">&lt;item android:color="?io.meduza.meduza:colorControlActivated" android:state_checked="true" android:alpha="0.3" /&gt;</span></code><br><code id="code-line-5">  <span class="line_body">&lt;item android:alpha="0.3" android:color="?colorForeground" /&gt;</span></code><br><code id="code-line-6"><span class="line_body">&lt;/selector&gt;</span></code><br></code></pre>
+            </div>
+        </div>
+        <script src="../../../js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            var query_params = decodeURIComponent(window.location.search.substring(1)),
+                variables = query_params.split('&'),
+                start_line,
+                end_line,
+                criticality;
+            for (var i = 0; i < variables.length; i++) {
+                var pair = variables[i].split('=');
+                if (pair[0] == "start_line") {
+                    start_line = pair[1];
+                }
+                if (pair[0] == "end_line") {
+                    end_line = pair[1];
+                }
+                if (pair[0] == "criticality") {
+                    criticality = pair[1];
+                }
+            }
+            for (var i = start_line; i <= end_line; i++) {
+                $("#code-line-" + i).addClass("vulnerable_line " + criticality);
+            }
+        </script>
+    </body>
+
+</html>

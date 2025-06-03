@@ -1,0 +1,24 @@
+package com.google.android.gms.internal.measurement;
+
+public abstract interface m6
+{
+  public abstract boolean a();
+  
+  public abstract boolean b();
+  
+  public abstract boolean c();
+  
+  public abstract boolean d();
+  
+  public abstract boolean f();
+  
+  public abstract boolean g();
+  
+  public abstract boolean m();
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.gms.internal.measurement.m6
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

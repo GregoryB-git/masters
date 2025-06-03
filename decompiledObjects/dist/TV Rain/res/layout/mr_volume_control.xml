@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="24.0dip" android:minHeight="48.0dip" android:layout_height="wrap_content" android:paddingEnd="12.0dip" android:gravity="center_vertical" android:layout_width="fill_parent" android:paddingRight="12.0dip" android:paddingStart="24.0dip" android:splitMotionEvents="false">
+  <ImageView android:src="?com.hintsolutions.raintv:mediaRouteAudioTrackDrawable" android:gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="center" />
+</LinearLayout>
