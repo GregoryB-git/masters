@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Whitelist the folders you want (keeping your existing ones)
+!documents/
+!decompiledObjects/
+!toolResults/
+
+# Include everything inside those folders
+!documents/**
+!decompiledObjects/**
+!toolResults/**
+
+# Whitelist only the specific folders you need from mySolution
+!mySolution/
+!mySolution/xrayModification/
+!mySolution/xrayModification/xray-dga-plugin/
+!mySolution/xrayModification/xray-dga-plugin/cmd/
+!mySolution/xrayModification/xray-dga-plugin/internal/
+!mySolution/xrayModification/xray-dga-plugin/go.mod
+
+# Include everything inside the whitelisted cmd and internal folders
+!mySolution/xrayModification/xray-dga-plugin/cmd/**
+!mySolution/xrayModification/xray-dga-plugin/internal/**
